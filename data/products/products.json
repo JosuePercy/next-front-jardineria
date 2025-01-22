@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "category": "Plantas",
+    "name": "Planta philodendron pink princess",
+    "price": 115.0,
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2024/01/planta-philodendron-pink-princess-precio1-300x300.jpg"
+  },
+  {
+    "id": 2,
+    "category": "Plantas",
+    "name": "Planta Duranta Golden",
+    "price": 8.0,
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2021/06/Planta-Duranta-Golden-300x300.jpg"
+  },
+  {
+    "id": 3,
+    "category": "Modern Conic",
+    "name": "Maceta Moderna Cónica Sandstone 54x33x77 japi",
+    "price": 439.0,
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2024/10/Maceta-Modern-Conic-Sandstone-1-600x600.png"
+  },
+  {
+    "id": 4,
+    "category": "Cónica, Macetas de fibra de vidrio",
+    "name": "Maceta de fibra de vidrio cónica 1x40",
+    "price": 259.0,
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2024/06/Maceta-de-fibra-de-vidrio-conica-1%C3%9740-v2-600x600.png"
+  },
+  {
+    "id": 5,
+    "category": "Macetas de cemento, Rectangular",
+    "name": "Maceta rectangular de cemento 120x40x30",
+    "price": 199.0,
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2022/01/maceta-de-cemento-1x40x30-600x600.png"
+  },
+  {
+    "id": 6,
+    "category": "Otros",
+    "name": "Líquido para limpiar follaje y hojas de plantas",
+    "price": 20.0,
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2019/08/lava-plantas-ferticorp-600x600.jpg"
+  },
+  {
+    "id": 7,
+    "category": "Macetas de cemento, Rectangular",
+    "name": "Maceta romana de cemento con patas",
+    "price": 125.0,
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2023/01/1-300x300.jpg"
+  },
+  {
+    "id": 8,
+    "category": "Modern Conic",
+    "name": "Maceta Moderna Cónica Charcoal 30x20x44 japi",
+    "price": 169.0,
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2024/10/Maceta-Moderna-Conica-Charcoal-30x26x44-japi-2-300x300.png"
+  }
+]
