@@ -10,7 +10,9 @@ const Logo = ({ isOpen, ToggleNavbar}: {isOpen: boolean, ToggleNavbar: () => voi
 
   return (
     <div className='flex items-center w-full justify-between px-4 py-3 sm:p-0'>
-      <img src="https://www.jardinerosenlima.com/wp-content/uploads/2021/01/logo2.png" alt="logo" />
+      <a href={"/"}>
+        <img src="https://www.jardinerosenlima.com/wp-content/uploads/2021/01/logo2.png" alt="logo" />
+      </a>
       <div className='md:hidden'>
         <button className='p-2 ' onClick={ToggleNavbar}>
           {isOpen ? <X /> : <Menu />}
