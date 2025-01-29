@@ -2,6 +2,8 @@
 "use client"
 import { useState } from "react";
 
+
+
 const ProductPage = () => {
   const [mainImage, setMainImage] = useState(
     "https://www.jardinerosenlima.com/wp-content/uploads/2024/06/Maceta-de-fibra-de-vidrio-conica-1%C3%9740-v2.png"
@@ -73,7 +75,7 @@ const ProductPage = () => {
           <div className="w-full md:w-1/2 px-4">
             <h2 className="text-3xl font-bold mb-2">Maceta de fibra de vidrio cónica 1×40</h2>
             <p className="text-gray-600 mb-4">PLANTA</p>
-            <div className="mb-1">
+            <div className="mb-1">  
               <span className="text-1xl font-bold mr-2">Boca:</span>
               <span className="text-gray-500 ">40 cm aproximado</span>
             </div>
@@ -120,7 +122,7 @@ const ProductPage = () => {
                 <button className="w-8 h-8 bg-blue-500 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"></button>
               </div> */}
             </div>
-
+          
             <button className="bg-[#33CC66] text-white py-3 px-6 rounded-lg shadow-lg hover:bg-[#33cc66ba] transition duration-300 w-full">
               Comprar por WhatsApp
             </button>

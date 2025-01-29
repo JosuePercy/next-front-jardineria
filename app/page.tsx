@@ -1,11 +1,31 @@
+
+"use client"
+
 import Banner from "./shared/components/banner/Banner";
 import products from "../data/products/products.json";
-import { IProducts } from "./interface/products";
+import { IProducts } from './interface/products';
 import Products from "./components/products/Products";
 import Jobs from "./shared/components/services-job/Jobs";
 import Title from "./shared/components/ui/title/Title";
+import { useState } from "react";
+import ProductModal from "./components/products/ProductModal";
 
 export default function Home() {
+
+  const [selectedProduct, setSelectedProduct] = useState<IProducts | null>(null)
+
+
+  const handleOpenModal = (product: IProducts) => {
+    setSelectedProduct(product)
+  }
+
+  const handleCloseModal = ()  => {
+    setSelectedProduct(null)
+  }
+
+
+
+
   return (
     <main>
       <Banner />
@@ -21,11 +41,19 @@ export default function Home() {
         >
           {
             products.map((product: IProducts) => (
-              <Products key={product.id} product={product}/>
+              <Products key={product.id} onClick={() => handleOpenModal(product)}  product={product}/>
             )
           )}
         </div>
       </section>
+      {
+        selectedProduct && (
+          <ProductModal 
+            product={selectedProduct}
+            products={products}
+            onClose={handleCloseModal} />
+        )
+      }
     </main>
   );
 }
