@@ -24,7 +24,6 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
           setSelectedProduct(null)
         }
 
-
         return (
           <main>
             <Banner />
@@ -39,23 +38,23 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
                 aria-label="Lista de productos"
               >
                 <Carousel
-                  opts={{
+                 /*  opts={{
                     align: "start",
                     loop: true,
-                    dragFree: true
-                  }}
-                  className="w-full max-w-[1320px]"
+                    dragFree: true  
+                  }} */
+                  className="w-full max-w-[1320px] relative"
                 >
                   <CarouselContent className="-ml-4 ">
-                    { products.map((product) => (
-                      <CarouselItem  key={product.id} className="flex justify-center items-center basis-1/2 md:basis-1/3 lg:basis-1/4 ">
+                    { products.map((product, index) => (
+                      <CarouselItem key={index} className="flex justify-center items-center basis-1/2 md:basis-1/3 lg:basis-1/4 ">
                         <Products product={product} onClick={() => handleOpenModal} />
                       </CarouselItem>
                     ))
                      }
                   </CarouselContent>
-                  <CarouselPrevious />
-                  <CarouselNext />
+                  <CarouselPrevious className="absolute left-0 top-1/2 transform -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 hidden sm:flex"/>
+                  <CarouselNext className="absolute right-0 top-1/2 transform -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 hidden sm:flex" />
                 </Carousel>
 
                {/* {
