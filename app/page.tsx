@@ -44,7 +44,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
                     loop: true,
                     dragFree: true
                   }}
-                  className="w-full max-w-[1320]"
+                  className="w-full max-w-[1320px]"
                 >
                   <CarouselContent className="-ml-4 ">
                     { products.map((product) => (
@@ -65,14 +65,14 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
                 )}  */}
               </div>
             </section>
-            {
+       {
               selectedProduct && (
                 <ProductModal 
                   product={selectedProduct}
                   products={products}
                   onClose={handleCloseModal} />
               )
-            }
+            } 
           </main>
         );
       }
