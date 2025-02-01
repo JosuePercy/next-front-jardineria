@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { formatPrice } from '@/lib/formatPrice';
 import { IProducts } from '../../interface/products';
+import { msjWhatsapp } from '@/app/config/messageWsp';
 
 
 interface ProductsProps {
@@ -11,12 +12,11 @@ interface ProductsProps {
 
 export const Products = ({ product, onClick }: ProductsProps) => {
 
-
-    const msjWhatsapp = "https://api.whatsapp.com/send?phone=+51992693050&text=🌹🌿☘ *¡Hola! * Quiero comprar este producto * "
+/*     const msjWhatsapp = "https://api.whatsapp.com/send?phone=+51992693050&text=🌹🌿☘ *¡Hola! * Quiero comprar este producto * " */
 
     return (
         <article
-            className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+            className="w-full bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
             key={product.id}
             aria-labelledby={`product-title-${product.id}`}
         >
@@ -28,7 +28,7 @@ export const Products = ({ product, onClick }: ProductsProps) => {
             <img
                 src={product.image || "https://via.placeholder.com/300"}
                 alt={`Imagen de ${product.name}`}
-                className="h-80 w-72 object-cover rounded-t-xl"
+                className=" h-60 sm:h-80 w-full object-cover rounded-t-xl"
             />
             <div className="px-4 py-3">
                 <a
@@ -79,7 +79,7 @@ export const Products = ({ product, onClick }: ProductsProps) => {
                     >
                         <img src="/wassap.svg" alt="WhatsApp" />
                         Comprar
-                    </a> 
+                    </a>
                 </div>
             </div>
             {/* </a> */}
