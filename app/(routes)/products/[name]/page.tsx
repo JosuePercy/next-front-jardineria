@@ -116,12 +116,12 @@ const ProductPage = () => {
             <div className="mb-6 flex gap-1">
               <p className="font-semibold mb-2">Precio:</p> 
               <p>S/259.00</p>
+            </div>
             {/*   <div className="flex space-x-2">
                 <button className="w-8 h-8 bg-black rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black"></button>
                 <button className="w-8 h-8 bg-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300"></button>
                 <button className="w-8 h-8 bg-blue-500 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"></button>
               </div> */}
-            </div>
           
             <button className="bg-[#33CC66] text-white py-3 px-6 rounded-lg shadow-lg hover:bg-[#33cc66ba] transition duration-300 w-full">
               Comprar por WhatsApp
