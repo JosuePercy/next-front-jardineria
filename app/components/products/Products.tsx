@@ -34,14 +34,14 @@ export const Products = ({ product, onClick }: ProductsProps) => {
                 <a
                     href="asdadsasda"
                     className="block"
-                    onClick={e => { e.preventDefault(); onClick() }}
+                    onClick={e => { e.preventDefault(); onClick(); }}
                 >
-                    <h2
+                    <p
                         id={`product-title-${product.id}`}
-                        className="text-lg font-bold text-black truncate capitalize"
+                        className="font-bold text-black truncate text-sm  capitalize"
                     >
                         {product.name}
-                    </h2>
+                    </p>
                 </a>
                 <span className="text-gray-400 mr-3 uppercase text-xs">
                     {product.category}
