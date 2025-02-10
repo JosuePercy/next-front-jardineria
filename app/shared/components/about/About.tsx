@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-      <div className="max-w-[1320px] mx-auto px-6">
+      <section className="px-6 bg-gray-50 py-20">
           {/* Título */}
           <h2 className="text-4xl font-semibold text-gray-800 text-center mb-12">
               Transformamos Tu Espacio con Belleza Natural
@@ -42,7 +42,7 @@ const About = () => {
                   />
               </div>
           </div>
-      </div>
+      </section>
   )
 }
 
