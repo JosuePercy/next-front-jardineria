@@ -35,11 +35,11 @@ export default function Home() {
     <main>
       <Banner />
       <Container className="m-auto">
-        <section>
+        <section id="services">
           <Title title={"SERVICIOS"} />
           <Jobs />
         </section>
-        <section>
+        <section id="products">
           <Title title="PRODUCTOS" />
         <ProductSection title="PLANTAS" products={products} handleOpenModal={handleOpenModal} />
 
@@ -57,7 +57,7 @@ export default function Home() {
           </DialogContent>
         </Dialog>
         </section>    
-        <About />
+        <About/>
         <Contact />
       </Container>
     </main>
