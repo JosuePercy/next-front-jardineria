@@ -15,6 +15,7 @@ const Banner = () => {
     '/banner/2.jpg',
     '/banner/3.jpg',
     '/banner/4.jpg',
+    '/banner/4.jpg',
   ];
 
   return (
