@@ -1,0 +1,45 @@
+[
+  { 
+    "id": 1,
+    "title": "Servicio a domicilio",
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2023/06/Servicio-a-domicilio-en-lima1.jpg",
+    "description": "Ofrecemos servicios de jardinería y mantenimiento para hogares.",
+    "details": [
+      "Servicio de jardinería",
+      "Servicio corte de césped",
+      "Venta de grass natural",
+      "Servicio de fumigación de plantas",
+      "Instalación de block grass",
+      "Venta de plantas",
+      "Servicio de diseño de jardines"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Servicio a condominios y a empresas",
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2023/06/Servicio-a-condominios-y-a-empresas2.jpg",
+    "description": "Servicios especializados en áreas verdes para empresas y condominios.",
+    "details": [
+      "Servicio de poda y tala de árboles y palmeras",
+      "Implementación y mantenimiento de áreas verdes",
+      "Suministro de plantas y macetas corporativo",
+      "Instalación de block grass",
+      "Venta de grass natural",
+      "Venta de plantas"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Servicios para proyectos y particulares",
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2023/06/Servicios-para-proyectos-y-particulares3.jpg",
+    "description": "Soluciones personalizadas para proyectos y clientes particulares.",
+    "details": [
+      "Implementación y mantenimiento de áreas verdes",
+      "Servicio de paisajismo",
+      "Suministro de plantas y macetas corporativo",
+      "Servicio de instalación de autorriego",
+      "Servicio para empresas inmobiliarias",
+      "Venta de plantas"
+    ]
+  }
+]

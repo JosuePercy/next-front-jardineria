@@ -42,8 +42,10 @@ export default function Home() {
         <section id="products">
           <Title title="PRODUCTOS" />
         <ProductSection title="PLANTAS" products={products} handleOpenModal={handleOpenModal} />
-
         <ProductSection title="MACETAS" products={products} handleOpenModal={handleOpenModal} />  
+        <ProductSection title="ABONO" products={products} handleOpenModal={handleOpenModal} />
+        <ProductSection title="ABONO" products={products} handleOpenModal={handleOpenModal} />
+        <ProductSection title="ABONO" products={products} handleOpenModal={handleOpenModal} />
         <ProductSection title="ABONO" products={products} handleOpenModal={handleOpenModal} />
 
         {/* MODAL CON SHADCN */}

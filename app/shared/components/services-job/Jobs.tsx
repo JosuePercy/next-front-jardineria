@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import jobs from '../../../../data/products/jobs.json'
+import jobs from '../../../../data/jobs/jobs.json'
 import { IJobs } from '@/app/interface/jobs'
 
 
@@ -20,7 +20,7 @@ const Jobs = () => {
                       <div className="flex flex-col gap-3  text-base">
                                 {job.details.map((detalle, index) => (
                                     <div key={index} className="flex flex-row gap-3">
-                                        <div className="text-green-600">
+                                        <div className="text-[#1fa828]">
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 width="24"
@@ -41,9 +41,7 @@ const Jobs = () => {
                                 ))}
                       </div>
                       <div className="flex flex-grow"></div>
-                      <div className="flex pt-10">
-                                <button className="w-full bg-[#FF9900] text-[#ffffff] font-bold text-base p-3 rounded-lg hover:bg-purple-800 active:scale-95 transition-transform transform">Get started - 100% Free</button>
-                      </div>
+                    
                   </div>
               </div>
 
