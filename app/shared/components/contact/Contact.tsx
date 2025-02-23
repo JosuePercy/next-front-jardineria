@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
       <section id='contact' className="mx-auto ">
-          <h2 className="text-2xl font-bold text-center text-gray-800 mb-4">Contactanos</h2>
+          <h2 className="text-2xl font-bold text-center text-gray-800 mb-4 mt-5">Contactanos</h2>
           <div className="flex flex-col md:flex-row bg-white shadow-md rounded-lg overflow-hidden p-6">
               {/* Mapa */}
               <div className="w-full md:w-1/2 h-64 md:h-auto relative">

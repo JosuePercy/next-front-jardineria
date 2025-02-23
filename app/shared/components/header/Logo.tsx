@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 
 import { Menu, X } from 'lucide-react'
@@ -11,7 +12,7 @@ const Logo = ({ isOpen, ToggleNavbar}: {isOpen: boolean, ToggleNavbar: () => voi
   return (
     <div className='flex items-center w-full justify-between px-4 py-3 sm:p-0'>
       <a href={"/"}>
-        <img src="https://www.jardinerosenlima.com/wp-content/uploads/2021/01/logo2.png" alt="logo" />
+        <img className='w-[200px]' src="/logo.png" alt="logo" />
       </a>
       <div className='md:hidden'>
         <button className='p-2 ' onClick={ToggleNavbar}>
