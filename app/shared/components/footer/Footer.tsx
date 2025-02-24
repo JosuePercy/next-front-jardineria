@@ -6,7 +6,7 @@ import React from 'react';
 
 const Footer = () => (
   <footer className="w-full bg-[#004400]">
-    <div className="mx-auto  px-4 sm:px-6 lg:px-8 max-w-[1320]">
+    <div className="mx-auto  px-4 sm:px-6 lg:px-8 max-w-[1320px]">
       <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3 gap-y-8 md:gap-8 py-10 max-w-sm mx-auto sm:max-w-3xl lg:max-w-full">
         <div className="col-span-full mb-10 lg:col-span-2 lg:mb-0">
           <a href="https://pagedone.io/" className="flex justify-center lg:justify-start">
@@ -20,11 +20,11 @@ const Footer = () => (
         <div className="lg:mx-auto text-left ">
           <h4 className="text-lg text-[#FF9900] font-medium mb-7"> Ubicación</h4>
           <ul className="text-sm  transition-all duration-500">
-            <li className="mb-6 flex gap-1"><MapPin color='#FF9900'/><a href="javascript:;" className="text-white hover:text-gray-900">La Molina</a></li>
+            <li className="mb-6 flex gap-1"><MapPin color='#FF9900' /><a href="javascript:;" className="text-white hover:text-gray-900">La Molina</a></li>
             <li className="mb-6 flex gap-1"><Phone color='#FF9900' /><a href="javascript:;" className=" text-white hover:text-gray-900">About</a></li>
           </ul>
         </div>
-        
+
         <div className="lg:mx-auto text-left ">
           <h4 className="text-lg text-[#FF9900] font-medium mb-7">Política</h4>
           <ul className="text-sm  transition-all duration-500">
@@ -34,17 +34,17 @@ const Footer = () => (
             <li className="mb-6"><a href="javascript:;" className=" text-white hover:text-gray-900">Preguntas Frecuentes</a></li>
           </ul>
         </div>
-        
+
         <div className="lg:mx-auto text-left ">
           <h4 className="text-lg text-[#FF9900] font-medium mb-7">Blog</h4>
           <ul className="text-sm  transition-all duration-500">
             <li className="mb-6"><a href="javascript:;" className="text-white hover:text-gray-900">Planta alita de ángel, decora, característica y precio</a></li>
             <li className="mb-6"><a href="javascript:;" className=" text-white hover:text-gray-900">Planta clavel chino características y precio</a></li>
             <li className="mb-6"><a href="javascript:;" className=" text-white hover:text-gray-900">Plantas Ornamentales: Tipos, Cuidados y Beneficios</a></li>
-     
+
           </ul>
         </div>
-        
+
         <div className="lg:mx-auto text-left ">
           <h4 className="text-lg text-[#FF9900] font-medium mb-7">Atención</h4>
           <p className="text-sm text-white leading-6 mb-7">  Lunes - Sábados / 9AM - 7:30PM</p>
@@ -56,7 +56,7 @@ const Footer = () => (
       </div>
       <div className="py-7 border-t border-gray-200">
         <div className="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
-          <span className="text-sm text-white ">© 2023 JARDINEROS EN LIMA | Todos los derechos reservados | Diseño Web LOGOTIPOS EN LIMA</span>
+          <span className="text-sm text-white ">© 2025 VIVERO VALLE DEL MANTARO | Todos los derechos reservados</span>
           <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
             <a href="javascript:;" className="w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[#33CCFF] hover:bg-gray-900">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
