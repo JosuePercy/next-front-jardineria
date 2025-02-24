@@ -38,7 +38,7 @@ const NavLink = ({ href, text }: NavLinkProps) => {
 
 const Navs = ({ isOpen }: { isOpen: boolean, ToggleNavbar: () => void }) => {
     return (
-        <nav className={`md:flex ${isOpen ? "block" : "hidden"}`}>
+        <nav className={`md:flex ${isOpen ? "block" : "hidden"} ` }>
             <div className="flex flex-col md:flex-row md:space-x-6 w-full">
                 {links.map((link) => (
                     <NavLink key={link.name} href={link.href} text={link.name} />

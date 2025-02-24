@@ -18,7 +18,7 @@ const Banner = () => {
   ];
 
   return (
-    <div className="w-full lg:h-dvh  relative overflow-hidden"> {/* Contenedor principal con overflow-hidden */}
+    <div className="w-full pt-5 lg:h-dvh  relative overflow-hidden"> {/* Contenedor principal con overflow-hidden */}
       <Carousel
         className="w-full h-full"
         opts={{
