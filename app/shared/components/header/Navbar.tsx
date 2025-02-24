@@ -32,11 +32,10 @@ const Navbar = () => {
 
   return (
     <header
-      className=
-      {`sticky top-0 z-50 bg-white transition-colors duration-300 ${isScrolled ? "bg-whit shadow-md" : "bg-white"
-        }`}
+      className={`fixed top-0 left-0 w-full z-50 bg-white transition-colors duration-300 ${isScrolled ? "bg-white shadow-md" : "bg-white"
+        } `} // Altura fija de 64px (4rem)
     >
-      <div className='max-w-[1320] md:justify-between m-auto sm:items-center md:flex  sm:px-4 sm:py-3 '>
+      <div className='max-w-[1320px] md:justify-between mx-auto sm:items-center md:flex sm:px-4 sm:py-3'>
         <Logo isOpen={isOpen} ToggleNavbar={ToggleNavbar} />
         <Navs isOpen={isOpen} ToggleNavbar={ToggleNavbar} />
       </div>
