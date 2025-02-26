@@ -16,7 +16,7 @@ const ProductSection = ({title, products, handleOpenModal}: IProductsSectionProp
   return (
       <div className="w-full flex flex-col items-center">       
           {/* Contenedor principal con tamaño fijo */}
-          <div className="w-full px-4">
+          <div className="w-full mb:px-4 px-0 ">
               <h1 className="  text-3xl font-bold  mt-10">{title}</h1>
 
               {/* Carrusel dentro del contenedor principal */}
