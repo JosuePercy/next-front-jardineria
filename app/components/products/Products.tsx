@@ -30,7 +30,7 @@ export const Products = ({ product, onClick }: ProductsProps) => {
                 alt={`Imagen de ${product.name}`}
                 className=" h-60 sm:h-80 w-full object-cover rounded-t-xl"
             />
-            <div className="px-4 py-3">
+            <div className="px-[0.55rem] mb:px-4  py-3  ">
                 <a
                     href="asdadsasda"
                     className="block"

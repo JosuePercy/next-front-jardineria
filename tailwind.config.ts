@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 export default {
+	
     darkMode: ["class"],
     content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,6 +10,9 @@ export default {
   ],
   theme: {
   	extend: {
+		screens: {
+			mb: '400px'
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -58,5 +62,6 @@ export default {
   		}
   	}
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;

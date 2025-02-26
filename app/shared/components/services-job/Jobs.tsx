@@ -7,7 +7,7 @@ import { IJobs } from '@/app/interface/jobs'
 const Jobs = () => {
   return (
       <div className="flex mx-auto justify-center items-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 m-8">
+          <div className="grid grid-cols-1 mb:m-8 md:grid-cols-2 xl:grid-cols-3 gap-6 m-0">
             {
                 jobs.map((job: IJobs) => (
                 <div key={job.id} className="flex flex-col rounded-2xl w-full xl:w-96 bg-[#ffffff] text-[#374151] shadow-xl">
