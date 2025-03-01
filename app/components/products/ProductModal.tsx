@@ -18,12 +18,13 @@ const ProductModal = ({ product, handleCloseModal }: IProductMadalProps) => {
 
 
   return (
-    <>
-      <img src={product.image} alt={product.name} className=" md:w-1/2  sm:w-1/3  w-48 h-48 md:h-auto object-cover rounded-md mb-4 md:mb-0" />
+    <div className='max-h-[90hv] overflow-y-auto max-w-[95vw]'>
+      <div className='flex flex-col md:flex-row'>
+      <img src={product.image} alt={product.name} className=" md:w-1/2 m-auto sm:w-1/3  w-48 h-48 md:h-auto object-cover rounded-md mb-4 md:mb-0" />
       <div className="md:ml-6 flex flex-col h-full w-full md:w-1/2">
         <DialogHeader className='flex flex-row justify-between items-center'>
-          <DialogTitle style={{fontSize: 19}} about='' className="font-semibold">{product.name}</DialogTitle>
-          <DialogClose className='absolute' asChild>
+          <DialogTitle style={{fontSize: 19}} about='' className="font-semibold md:text-center">{product.name}</DialogTitle>
+            <DialogClose className='absolute top-4 right-4' asChild>
             <button onClick={handleCloseModal} className="top-2 right-2 text-lg"><X /></button>
           </DialogClose>
         </DialogHeader>
@@ -42,7 +43,8 @@ const ProductModal = ({ product, handleCloseModal }: IProductMadalProps) => {
           Comprar
         </a>
       </div>
-    </>
+      </div>
+    </div>
   )
 }
 

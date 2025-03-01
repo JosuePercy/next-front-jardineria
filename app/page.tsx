@@ -57,7 +57,6 @@ export default function Home() {
           <ProductSection title="ABONO" products={products} handleOpenModal={handleOpenModal} />
           <ProductSection title="ABONO" products={products} handleOpenModal={handleOpenModal} />
 
-          {/* MODAL CON SHADCN */}
           <Dialog open={!!selectedProduct} onOpenChange={handleCloseModal}>
             <DialogContent className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 p-4">
               <div className="bg-white relative p-6 rounded-lg shadow-lg max-w-4xl w-full flex flex-col md:flex-row items-center md:items-start">
@@ -71,9 +70,9 @@ export default function Home() {
         <About />
         <Contact />
       </Container>
-        {/* Botón flotante de WhatsApp */}
+     
         <button
-          onClick={() => setIsWhatsAppOpen(true)} // Abre el chat
+          onClick={() => setIsWhatsAppOpen(true)} 
           className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors"
         >
           <img
@@ -83,7 +82,6 @@ export default function Home() {
           />
         </button>
 
-        {/* Chat de WhatsApp */}
         <Dialog  open={isWhatsAppOpen} onOpenChange={setIsWhatsAppOpen}>
           <DialogContent className="fixed bottom-6 right-6 rounded-[30px] shadow-lg w-[90vw] max-w-[400px] max-h-[80vh] bg-white flex flex-col">
             {/* Encabezado del chat */}
