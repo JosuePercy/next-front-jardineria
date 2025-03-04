@@ -24,9 +24,7 @@ import { MessageCircle, X } from "lucide-react";
 export default function Home() {
 
 
-
-
-  const [selectedProduct, setSelectedProduct] = useState<IProducts | null>(null)
+    const [selectedProduct, setSelectedProduct] = useState<IProducts | null>(null)
 
   const [isWhatsAppOpen, setIsWhatsAppOpen] = useState(false); // Estado para el dialog de WhatsApp
 
@@ -59,7 +57,7 @@ export default function Home() {
 
           <Dialog open={!!selectedProduct} onOpenChange={handleCloseModal}>
             <DialogContent className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 p-4">
-              <div className="bg-white relative p-6 rounded-lg shadow-lg max-w-4xl w-full flex flex-col md:flex-row items-center md:items-start">
+              <div className="bg-white relative mb:p-6 p-4 rounded-lg shadow-lg max-w-4xl w-full flex flex-col md:flex-row items-center md:items-start">
                 {selectedProduct && (
                   <ProductModal handleCloseModal={handleCloseModal} product={selectedProduct} />
                 )}
@@ -93,7 +91,7 @@ export default function Home() {
                   className="w-9 h-9"
                 />
                 <DialogTitle>
-                  <span className="text-white text-lg font-semibold">WhatsApp</span>
+                <p className="text-white text-[1.2rem] font-semibold">WhatsApp</p>
                 </DialogTitle>
               </div>
               <DialogClose asChild>

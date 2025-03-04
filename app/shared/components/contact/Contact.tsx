@@ -26,7 +26,7 @@ const Contact = () => {
               </div>
 
               {/* Formulario */}
-              <div className="w-full md:w-1/2 p-6">
+              <div className="w-full md:w-1/2 py-6 md:p-6">
                   <form className="space-y-4">
                       <div>
                           <label className="block text-gray-700 font-medium">Your Name *</label>
