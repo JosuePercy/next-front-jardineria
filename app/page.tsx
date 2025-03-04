@@ -111,7 +111,7 @@ export default function Home() {
                 >
                   {/* Contenido del mensaje */}
                   <p>Hola</p>
-                  <p>Realice su consulta de nuestros servicios de jardinería <strong>AHORA!!!</strong></p>
+                  <p>Realice su consulta de nuestros servicios de jardinería <strong>AHORA!!!!</strong></p>
 
                 </div>
               </div>
