@@ -1,15 +1,22 @@
 [
   {
     "id": 1,
-    "category": "Plantas",
-    "name": "Planta philodendron pink princess",
-    "description": "Descubre la belleza de la palmera hawaiana, perfecta para embellecer interiores, exteriores, oficinas y jardines. Con una altura aproximada de 1 metro, brinda un toque natural y sofisticado a cualquier ambiente. Disponible para envío a domicilio o recojo en tienda. Para consultar disponibilidad y costos de envío según tu distrito, contáctanos por WhatsApp",
-    "price": 115.0,
-    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2024/01/planta-philodendron-pink-princess-precio1-300x300.jpg"
+    "category": "maceta de fibra",
+    "name": "Macetas conica",
+    "description": "Fabricadas en fibra de vidrio, son resistentes, ligeras y aptas para interiores y exteriores. Consulta por colores y disponibilidad.",
+    "medidas": [
+      "35x35cm", 
+      "40x35cm",
+      "60x40cm",
+      "80x40cm",
+      "100x40cm"
+    ],
+    "price": "S/. 79 - S/. 249",
+    "image": "/images/macetas/fibra/CONICA.png"
   },
   {
     "id": 2,
-    "category": "Plantas",
+    "category": "maceta",
     "name": "Planta Duranta Golden",
     "description": "Commodo anim quis aliquip commodo eu do ea. Qui reprehenderit ullamco dolor cupidatat nisi ipsum excepteur ullamco sunt mollit duis deserunt consequat dolore. Qui dolor et voluptate in amet qui et esse aliquip labore. Fugiat minim qui consectetur elit aute ut do excepteur est nulla enim. Amet est duis aliquip proident incididunt do eu irure Lorem est nostrud do id. Laboris quis consequat pariatur esse commodo commodo cillum proident eiusmod enim tempor ea nulla sit.",
     "price": 8.0,

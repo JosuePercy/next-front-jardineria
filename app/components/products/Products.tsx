@@ -11,9 +11,7 @@ interface ProductsProps {
 
 
 export const Products = ({ product, onClick }: ProductsProps) => {
-
 /*     const msjWhatsapp = "https://api.whatsapp.com/send?phone=+51992693050&text=🌹🌿☘ *¡Hola! * Quiero comprar este producto * " */
-
     return (
         <article
             className="w-full bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
@@ -75,7 +73,7 @@ export const Products = ({ product, onClick }: ProductsProps) => {
                         href={msjWhatsapp + product.name + "*"}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-[#33CC66] text-white py-3 px-6 rounded-lg shadow-lg hover:bg-[#33cc66ba] transition duration-300 w-full flex items-center justify-center gap-2 no-underline"
+                        className="bg-[#99CC66] text-white py-3 px-6 rounded-lg shadow-lg hover:bg-[#33cc66ba] transition duration-300 w-full flex items-center justify-center gap-2 no-underline"
                     >
                         <img src="/wassap.svg" alt="WhatsApp" />
                         Comprar

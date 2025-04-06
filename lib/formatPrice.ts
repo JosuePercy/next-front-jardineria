@@ -1,4 +1,10 @@
-export function formatPrice(price: number) {
+
+export function formatPrice(price: number | string) {
+
+  if (typeof price === "string") {
+    return price;
+  }
+
   const priceFormated = new Intl.NumberFormat("es-PE", {
     style: "currency",
     currency: "PEN",

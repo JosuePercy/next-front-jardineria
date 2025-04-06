@@ -1,10 +1,11 @@
 "use client"
 /* eslint-disable @next/next/no-img-element */
 
-
-
 import Banner from "./shared/components/banner/Banner";
-import products from "../data/products/products.json";
+
+import products from "../data/products/plantas/plantas.json";
+import macetasFibra from "../data/products/macetas/macetas-fibra.json";
+
 import { IProducts } from './interface/products';
 /* import Products from "./components/products/Products"; */
 import Jobs from "./shared/components/services-job/Jobs";
@@ -28,8 +29,6 @@ export default function Home() {
 
   const [isWhatsAppOpen, setIsWhatsAppOpen] = useState(false); // Estado para el dialog de WhatsApp
 
-
-
   const handleOpenModal = (product: IProducts) => {
     setSelectedProduct(product)
   }
@@ -49,13 +48,8 @@ export default function Home() {
         <section id="products">
           <Title title="PRODUCTOS" />
           <ProductSection title="PLANTAS" products={products} handleOpenModal={handleOpenModal} />
-          <ProductSection title="MACETAS" products={products} handleOpenModal={handleOpenModal} />
-          <ProductSection title="ABONO" products={products} handleOpenModal={handleOpenModal} />
-          <ProductSection title="ABONO" products={products} handleOpenModal={handleOpenModal} />
-          <ProductSection title="ABONO" products={products} handleOpenModal={handleOpenModal} />
-          <ProductSection title="ABONO" products={products} handleOpenModal={handleOpenModal} />
-
-          <Dialog open={!!selectedProduct} onOpenChange={handleCloseModal}>
+          <ProductSection title="MACETAS" products={macetasFibra} handleOpenModal={handleOpenModal} />
+              <Dialog open={!!selectedProduct} onOpenChange={handleCloseModal}>
             <DialogContent className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 p-4">
               <div className="bg-white relative mb:p-6 p-4 rounded-lg shadow-lg max-w-4xl w-full flex flex-col md:flex-row items-center md:items-start">
                 {selectedProduct && (

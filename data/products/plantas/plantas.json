@@ -1,0 +1,98 @@
+  [
+    {
+      "id": 1,
+      "category": "Plantas",
+      "name": "Palmera Hawaiana",
+      "description": "Descubre la belleza de la palmera hawaiana, perfecta para embellecer interiores, exteriores, oficinas y jardines. Con una altura aproximada de 1 metro, brinda un toque natural y sofisticado a cualquier ambiente. Disponible para envío a domicilio o recojo en tienda. Para consultar disponibilidad y costos de envío según tu distrito.",
+      "price": 50,
+      "image": "https://www.jardinerosenlima.com/wp-content/uploads/2024/01/planta-philodendron-pink-princess-precio1-300x300.jpg"
+    },
+    {
+      "id": 2,
+      "category": "Plantas",
+      "name": "Lengua de Suegra",
+      "description": "Dale un toque natural y protector a tu hogar con la lengua de suegra, una planta resistente ideal para exteriores. Con una altura aproximada de 1 metro, requiere riego solo una vez al mes, lo que la hace de bajo mantenimiento. Además de embellecer tus espacios, contribuye a la purificación del aire y se cree que protege el hogar. Disponible para envío a domicilio (delivery) y recojo en tienda. Consulta disponibilidad y costos de envío según tu distrito.",
+      "price": 20,
+      "image": "https://www.jardinerosenlima.com/wp-content/uploads/2021/06/Planta-Duranta-Golden-300x300.jpg"
+    },
+    {
+      "id": 3,
+      "category": "Plantas",
+      "name": "Filodendro",
+      "description": "Decora tus espacios con el hermoso filodendro, también conocido como oreja de elefante, una planta ideal para interiores. Su follaje exuberante y elegante aporta un toque natural y sofisticado a cualquier ambiente. De fácil cuidado, es perfecta para embellecer hogares y oficinas. Disponible para envío a domicilio (delivery)y recojo en tienda. Consulta disponibilidad y costos de envío según tu distrito",
+      "price": 50,
+      "image": "https://www.jardinerosenlima.com/wp-content/uploads/2024/10/Maceta-Modern-Conic-Sandstone-1-600x600.png"
+    },
+    {
+      "id": 4,
+      "category": "Plantas",
+      "name": "Palmera Bambú",
+      "description": "Decora tus espacios con la elegante palmera bambú, una planta hermosa y resistente, ideal para interiores y exteriores. Con una altura de 70 cm, su follaje denso y estilizado aporta un toque natural y sofisticado a cualquier ambiente. Fácil de cuidar, es perfecta para hogares, oficinas y jardines. Disponible para envío a domicilio (delivery) o recojo en tienda. No incluye maceta. Consulta disponibilidad y costos de envío según tu distrito",
+      "price": 120,
+      "image": "https://www.jardinerosenlima.com/wp-content/uploads/2024/06/Maceta-de-fibra-de-vidrio-conica-1%C3%9740-v2-600x600.png"
+    },
+    {
+      "id": 5,
+      "category": "Plantas",
+      "name": "Monstera",
+      "description": "Decora tu hogar u oficina con la hermosa Monstera, también conocida como Costilla de Adán. Con una altura de 40 cm, su follaje exótico y elegante la convierte en una opción ideal para interiores, aportando un toque tropical y sofisticado. Es fácil de cuidar y ayuda a purificar el aire. Disponible para envío a domicilio (delivery) o recojo en tienda. Consulta disponibilidad y costos de envío según tu distrito",
+      "price": 50,
+      "image": "https://www.jardinerosenlima.com/wp-content/uploads/2022/01/maceta-de-cemento-1x40x30-600x600.png"
+    },
+    {
+      "id": 6,
+      "category": "Plantas",
+      "name": "Helecho Alemán",
+      "description": "Decora tu hogar u oficina con el hermoso helecho alemán, una planta ideal para interiores gracias a su frondoso y elegante follaje. Con una altura de 30 cm, aporta frescura y un toque natural a cualquier ambiente, además de ser fácil de cuidar. Disponible para envío a domicilio (delivery) o recojo en tienda. Consulta disponibilidad y costos de envío según tu distrito",
+      "price": 35,
+      "image": "https://www.jardinerosenlima.com/wp-content/uploads/2019/08/lava-plantas-ferticorp-600x600.jpg"
+    },
+    {
+      "id": 7,
+      "category": "Plantas",
+      "name": "Spatofilio",
+      "description": "Decora tu hogar u oficina con el hermoso Spatofilio, también conocido como Cuna de Moisés. Ideal para interiores, su elegante follaje verde y delicadas flores blancas aportan armonía y frescura a cualquier ambiente. Con una altura de 40 a 45 cm, es fácil de cuidar y ayuda a purificar el aire. Disponible para envío a domicilio (delivery) o recojo en tienda. Consulta disponibilidad y costos de envío según tu distrito",
+      "price": 39,
+      "image": "https://www.jardinerosenlima.com/wp-content/uploads/2024/10/Maceta-Moderna-Conica-Charcoal-30x26x44-japi-2-300x300.png"
+    },
+    {
+      "id": 8,
+      "category": "Plantas",
+      "name": "Palmera Viajera",
+      "description": "Decora tus espacios con la imponente palmera viajera, una planta elegante y exótica ideal para interiores y exteriores. Con una altura de 80 cm a 1 m, su distintivo follaje en forma de abanico aporta un toque tropical y sofisticado a cualquier ambiente. Es resistente y fácil de cuidar. Disponible para envío a domicilio (delivery) o recojo en tienda. Consulta disponibilidad y costos de envío según tu distrito",
+      "price": 140,
+      "image": "https://www.jardinerosenlima.com/wp-content/uploads/2023/01/1-300x300.jpg"
+    },
+    {
+      "id": 9,
+      "category": "Plantas",
+      "name": "Buganvilia Arbustiva",
+      "description": "Embellece tu jardín con la vibrante buganvilia arbustiva, una planta ideal para exteriores gracias a su espectacular floración y resistencia. Con una altura de 30 a 40 cm, sus llamativas brácteas de colores aportan alegría y frescura a cualquier espacio. Fácil de cuidar y perfecta para cercos vivos o macetas. Disponible para envío a domicilio (delivery) o recojo en tienda. Consulta disponibilidad y costos de envío según tu distrito",
+      "price": 39,
+      "image": "https://www.jardinerosenlima.com/wp-content/uploads/2023/01/1-300x300.jpg"
+    },
+    {
+      "id": 10,
+      "category": "Plantas",
+      "name": "Croton",
+      "description": "Dale color a tu jardín con el llamativo croton, una planta ideal para exteriores gracias a su follaje vibrante y exótico. Con una altura de 50 cm, sus hojas multicolores aportan un toque tropical y decorativo a cualquier espacio. Es resistente y fácil de cuidar. Disponible para envío a domicilio (delivery) o recojo en tienda. Consulta disponibilidad y costos de envío según tu distrito",
+      "price": 40,
+      "image": "https://www.jardinerosenlima.com/wp-content/uploads/2023/01/1-300x300.jpg"
+    },
+    {
+      "id": 11,
+      "category": "Plantas",
+      "name": "Duranta Limón",
+      "description": "Embellece tu jardín con la duranta limón, una planta perfecta para cercos vivos gracias a su denso follaje de un vibrante color amarillo verdoso. Con una altura de 15 a 20 cm, es ideal para exteriores, resistente al sol y de fácil mantenimiento, aportando un toque fresco y elegante a cualquier espacio. Disponible para envío a domicilio (delivery) o recojo en tienda. Consulta disponibilidad y costos de envío según tu distrito",
+      "price": 3,
+      "image": "https://www.jardinerosenlima.com/wp-content/uploads/2023/01/1-300x300.jpg"
+    },
+    {
+      "id": 12,
+      "category": "Plantas",
+      "name": "Ciprés de Limón",
+      "description": "Decora tu jardín con el elegante ciprés de limón, una planta ideal para exteriores gracias a su follaje denso y su agradable aroma cítrico. Perfecto para cercos vivos o como planta ornamental, es resistente al sol y fácil de cuidar. Disponible para envío a domicilio (delivery) o recojo en tienda. Consulta disponibilidad y costos de envío según tu distrito",
+      "price": 35,
+      "image": "https://www.jardinerosenlima.com/wp-content/uploads/2023/01/1-300x300.jpg"
+    }
+  ]

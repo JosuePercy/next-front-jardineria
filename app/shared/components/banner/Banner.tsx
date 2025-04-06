@@ -11,10 +11,10 @@ import { Card, CardContent } from '@/components/ui/card';
 const Banner = () => {
   // Array de imágenes para el carrusel
   const images = [
-    '/banner/1.jpg',
-    '/banner/2.jpg',
-    '/banner/3.jpg',
-    '/banner/4.jpg',
+    'images/banner/1.jpg',
+    'images/banner/2.jpg',
+    'images/banner/3.jpg',
+    'images/banner/4.jpg',
   ];
 
   return (

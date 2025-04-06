@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "category": "Macetas cemento",
+    "name": "Macetas huevo",
+    "description": "Dale un toque natural y protector a tu hogar con la lengua de suegra, una planta resistente ideal para exteriores. Con una altura aproximada de 1 metro, requiere riego solo una vez al mes, lo que la hace de bajo mantenimiento. Además de embellecer tus espacios, contribuye a la purificación del aire y se cree que protege el hogar. Disponible para envío a domicilio (delivery) y recojo en tienda. Consulta disponibilidad y costos de envío según tu distrito.",
+    "price": 20,
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2021/06/Planta-Duranta-Golden-300x300.jpg"
+  },
+  {
+    "id": 2,
+    "category": "Macetas cemento",
+    "name":"Macetas huevo",     
+    "description": "Dale un toque natural y protector a tu hogar con la lengua de suegra, una planta resistente ideal para exteriores. Con una altura aproximada de 1 metro, requiere riego solo una vez al mes, lo que la hace de bajo mantenimiento. Además de embellecer tus espacios, contribuye a la purificación del aire y se cree que protege el hogar. Disponible para envío a domicilio (delivery) y recojo en tienda. Consulta disponibilidad y costos de envío según tu distrito.",
+    "price": 20,
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2021/06/Planta-Duranta-Golden-300x300.jpg"
+  },
+  {
+    "id": 3,
+    "category": "Macetas cemento",
+    "name":"Macetas cubo",
+    "description": "Decora tus espacios con el hermoso filodendro, también conocido como oreja de elefante, una planta ideal para interiores. Su follaje exuberante y elegante aporta un toque natural y sofisticado a cualquier ambiente. De fácil cuidado, es perfecta para embellecer hogares y oficinas. Disponible para envío a domicilio (delivery)y recojo en tienda. Consulta disponibilidad y costos de envío según tu distrito",
+    "price": 50,
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2024/10/Maceta-Modern-Conic-Sandstone-1-600x600.png"
+  },
+  {
+    "id": 4,
+    "category": "Macetas cemento",
+    "name":"Macetas esfera",
+    "description": "Decora tus espacios con la elegante palmera bambú, una planta hermosa y resistente, ideal para interiores y exteriores. Con una altura de 70 cm, su follaje denso y estilizado aporta un toque natural y sofisticado a cualquier ambiente. Fácil de cuidar, es perfecta para hogares, oficinas y jardines. Disponible para envío a domicilio (delivery) o recojo en tienda. No incluye maceta. Consulta disponibilidad y costos de envío según tu distrito",
+    "price": 120,
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2024/06/Maceta-de-fibra-de-vidrio-conica-1%C3%9740-v2-600x600.png"
+  },
+  {
+    "id": 5,
+    "category": "Macetas cemento",
+    "name":"Macetas conica",
+    "description": "Decora tu hogar u oficina con la hermosa Monstera, también conocida como Costilla de Adán. Con una altura de 40 cm, su follaje exótico y elegante la convierte en una opción ideal para interiores, aportando un toque tropical y sofisticado. Es fácil de cuidar y ayuda a purificar el aire. Disponible para envío a domicilio (delivery) o recojo en tienda. Consulta disponibilidad y costos de envío según tu distrito",
+    "price": 50,
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2022/01/maceta-de-cemento-1x40x30-600x600.png"
+  },
+  {
+    "id": 6,
+    "category": "Macetas cemento",
+    "name":"Macetas mexicana",
+    "description": "Decora tu hogar u oficina con el hermoso helecho alemán, una planta ideal para interiores gracias a su frondoso y elegante follaje. Con una altura de 30 cm, aporta frescura y un toque natural a cualquier ambiente, además de ser fácil de cuidar. Disponible para envío a domicilio (delivery) o recojo en tienda. Consulta disponibilidad y costos de envío según tu distrito",
+    "price": 35,
+    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2019/08/lava-Macetas cemento-ferticorp-600x600.jpg"
+  } 
+]
