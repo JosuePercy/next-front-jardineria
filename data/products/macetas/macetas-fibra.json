@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "category": "maceta de fibra",
+    "name": "Macetas conica",
+    "description": "Fabricadas en fibra de vidrio, son resistentes, ligeras y aptas para interiores y exteriores. Consulta por colores y disponibilidad.",
+    "medidas": ["35x35 cm", "40x35 cm", "60x40 cm", "80x40 cm", "100x40 cm"],
+    "price": "S/. 79 - S/. 249",
+    "image": "/images/macetas/fibra/CONICA.png"
+  },
+  {
+    "id": 2,
+    "category": "maceta de fibra",
+    "name": "Macetas jardineras",
+    "description": "Fabricadas en fibra de vidrio, son resistentes, ligeras y aptas para interiores y exteriores. Consulta por colores y disponibilidad.",
+    "medidas": [
+      "50x18x16 cm",
+      "60x25x25 cm",
+      "70x20x20 cm",
+      "80x20x20 cm",
+      "80x25x30 cm",
+      "80x30x30 cm",
+      "100x30x30 cm",
+      "100x30x40 cm",
+      "100x40x40 cm"
+    ],
+    "price": "S/. 69 - S/. 230",
+    "image": "/images/macetas/fibra/JARDINERAS.png"
+  },
+  {
+    "id": 3,
+    "category": "maceta de fibra",
+    "name": "Macetas esfera con sistema",
+    "description": "Fabricadas en fibra de vidrio, son resistentes, ligeras y aptas para interiores y exteriores. Consulta por colores y disponibilidad.",
+    "medidas": ["50 cm", "40 cm", "30 cm", "25 cm", "20 cm"],
+    "price": "S/. 69 - S/. 185",
+    "image": "/images/macetas/fibra/ESFERA.png"
+  },
+  {
+    "id": 4,
+    "category": "maceta de fibra",
+    "name": "Macetas cilindro con sistema",
+    "description": "Fabricadas en fibra de vidrio, son resistentes, ligeras y aptas para interiores y exteriores. Consulta por colores y disponibilidad.",
+    "medidas": ["32x35 cm", "30x30 cm", "25x25 cm", "20x20 cm", "50x50 cm"],
+    "price": "S/. 75 - S/. 245",
+    "image": "/images/macetas/fibra/CILINDRO.png"
+  },
+  {
+    "id": 5,
+    "category": "maceta de fibra",
+    "name": "Macetas huevo",
+    "description": "Fabricadas en fibra de vidrio, son resistentes, ligeras y aptas para interiores y exteriores. Consulta por colores y disponibilidad.",
+    "medidas": [
+      "60x60 cm",
+      "60x50 cm",
+      "50x50 cm",
+      "50x43 cm",
+      "43x45 cm",
+      "40x40 cm",
+      "35x40 cm",
+      "30x40 cm",
+      "28x35 cm",
+      "28x30 cm",
+      "20x22 cm",
+      "15x15 cm"
+    ],
+    "price": "S/. 35 - S/. 210",
+    "image": "/images/macetas/fibra/HUEVO.png"
+  },
+  {
+    "id": 6,
+    "category": "maceta de fibra",
+    "name": "Macetas capsula con sistema",
+    "description": "Fabricadas en fibra de vidrio, son resistentes, ligeras y aptas para interiores y exteriores. Consulta por colores y disponibilidad.",
+    "medidas": ["60x40 cm", "51x37 cm", "40x30 cm", "35x25 cm"],
+    "price": "S/. 90 - S/. 169",
+    "image": "/images/macetas/fibra/CAPSULA.png"
+  },
+  {
+    "id": 7,
+    "category": "maceta de fibra",
+    "name": "Macetas pera con sistema",
+    "description": "Fabricadas en fibra de vidrio, son resistentes, ligeras y aptas para interiores y exteriores. Consulta por colores y disponibilidad.",
+    "medidas": ["40x30 cm", "35x25 cm", "30x20 cm"],
+    "price": "S/. 89 - S/. 119",
+    "image": "/images/macetas/fibra/PERA.png"
+  },
+  {
+    "id": 8,
+    "category": "maceta de fibra",
+    "name": "Macetas cubo con plato",
+    "description": "Fabricadas en fibra de vidrio, son resistentes, ligeras y aptas para interiores y exteriores. Consulta por colores y disponibilidad.",
+    "medidas": ["50x50 cm", "40x40 cm", "30x30 cm"],
+    "price": "S/. 99 - S/. 179",
+    "image": "/images/macetas/fibra/CUBO.png"
+  },
+  {
+    "id": 9,
+    "category": "maceta de fibra",
+    "name": "Macetas piramidal",
+    "description": "Fabricadas en fibra de vidrio, son resistentes, ligeras y aptas para interiores y exteriores. Consulta por colores y disponibilidad.",
+    "medidas": [
+      "80x40 cm",
+      "60x40 cm",
+      "50x35 cm",
+      "40x35 cm",
+      "40x30 cm",
+      "23x23 cm"
+    ],
+    "price": "S/. 65 - S/. 150",
+    "image": "/images/macetas/fibra/PIRAMIDAL.png"
+  },
+  {
+    "id": 10,
+    "category": "maceta de fibra",
+    "name": "Macetas cilindro con patas",
+    "description": "Fabricadas en fibra de vidrio, son resistentes, ligeras y aptas para interiores y exteriores. Consulta por colores y disponibilidad.",
+    "medidas": ["50x27 cm", "40x20 cm"],
+    "price": "S/. 99 - S/. 155",
+    "image": "/images/macetas/fibra/CILINDRO CON PATAS.png"
+  },
+  {
+    "id": 11,
+    "category": "maceta de fibra",
+    "name": "Macetas cilindro rayado con sistema",
+    "description": "Fabricadas en fibra de vidrio, son resistentes, ligeras y aptas para interiores y exteriores. Consulta por colores y disponibilidad.",
+    "medidas": ["45x45 cm", "37x37 cm", "29x29 cm"],
+    "price": "S/. 120 - S/. 220",
+    "image": "/images/macetas/fibra/CILINDRO RAYADO.png"
+  },
+  {
+    "id": 12,
+    "category": "maceta de fibra",
+    "name": "Macetas romana sistema",
+    "description": "Fabricadas en fibra de vidrio, son resistentes, ligeras y aptas para interiores y exteriores. Consulta por colores y disponibilidad.",
+    "medidas": ["85x50 cm", "63x35 cm", "33x35 cm"],
+    "price": "S/. 140 - S/. 350",
+    "image": "/images/macetas/fibra/ROMANA SISTEMA.png"
+  }
+]
