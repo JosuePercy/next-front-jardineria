@@ -18,28 +18,28 @@ const ProductModal = ({ product, handleCloseModal }: IProductModalProps) => {
     <div className="w-full max-w-4xl overflow-y-auto bg-white rounded-xl shadow-lg p-4 md:p-6 relative flex flex-col gap-6 sm:flex-row">
 
       {/* Imagen del producto */}
-      <div className="w-full sm:w-1/2 flex justify-center items-start">
+      <div className="w-full sm:w-1/2 flex w- justify-center items-start">
         <img
           src={product.image}
           alt={product.name}
-          className="rounded-xl w-full max-w-xs sm:max-w-sm object-cover shadow-md"
+          className="rounded-xl w-[200px] sm:h-[70%] m-auto md:h-full sm:w-full h-full object-cover shadow-md"
         />
       </div>
 
       {/* Contenido */}
-      <div className="w-full sm:w-1/2 flex flex-col relative px-2 sm:px-4 md:px-6">
+      <div className="w-full flex sm:w-1/2  flex-col relative ">
         {/* Botón cerrar */}
-        <DialogClose asChild>
+        <DialogClose  asChild>
           <button
             onClick={handleCloseModal}
-            className="absolute top-2 right-2 text-gray-500 hover:text-gray-800 transition z-10"
+            className="flex justify-end  text-gray-500 hover:text-gray-800 transition z-10"
           >
             <X className="w-6 h-6" />
           </button>
         </DialogClose>
 
         <DialogHeader>
-          <DialogTitle className="text-2xl font-bold mb-2">
+          <DialogTitle className="sm:text-1xl md:text-[1.3rem] text-[1rem] font-bold mb-2">
             {product.name}
           </DialogTitle>
         </DialogHeader>
@@ -71,7 +71,7 @@ const ProductModal = ({ product, handleCloseModal }: IProductModalProps) => {
           href={msjWhatsapp + product.name + '*'}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-auto bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded-full text-center flex items-center justify-center gap-2 shadow-md transition"
+          className="mt-auto bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded-full text-1xl text-center flex text-[0.9rem] items-center justify-center gap-2 shadow-md transition"
         >
           <img src="/wassap.svg" alt="WhatsApp" className="w-5 h-5" />
           Comprar por WhatsApp
