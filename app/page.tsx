@@ -7,6 +7,10 @@ import products from "../data/products/plantas/plantas.json";
 import macetasFibra from "../data/products/macetas/macetas-fibra.json";
 import macetasCemento from "../data/products/macetas/macetas-cemento.json";
 import macetasArcilla from "../data/products/macetas/macetas-arcilla.json";
+import bañitoEcologico from "../data/products/mascota/bañito-ecologico.json";
+import AdornosFlorales from "../data/products/flores/adornos.json";
+import Grass from "../data/products/grass/grass.json";
+
 
 import { IProducts } from './interface/products';
 /* import Products from "./components/products/Products"; */
@@ -53,6 +57,9 @@ export default function Home() {
           <ProductSection title="MACETAS" products={macetasFibra} handleOpenModal={handleOpenModal} />
           <ProductSection title="MACETAS" products={macetasCemento} handleOpenModal={handleOpenModal} />
           <ProductSection title="MACETAS" products={macetasArcilla} handleOpenModal={handleOpenModal} />
+          <ProductSection title="MACETAS" products={bañitoEcologico} handleOpenModal={handleOpenModal} />
+          <ProductSection title="MACETAS" products={Grass} handleOpenModal={handleOpenModal} />
+          <ProductSection title="MACETAS" products={AdornosFlorales} handleOpenModal={handleOpenModal} />
           <Dialog open={!!selectedProduct} onOpenChange={handleCloseModal}>
             <DialogContent className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 p-4">
               <div className="bg-white relative mb:p-6 p-4 rounded-lg shadow-lg max-w-4xl w-full flex flex-col md:flex-row items-center md:items-start">
