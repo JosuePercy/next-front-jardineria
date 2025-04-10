@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "category": "maceta de cemento",
+    "name": "Macetas jardineras",
+    "description": "Fabricadas en cemento de color natural, son resistentes, duraderas y aptas tanto para interiores como exteriores. Se pueden pintar por un costo adicional, dependiendo del tamaño. Consulta por colores y disponibilidad.",
+    "medidas": ["100x40x30 cm", "100x30x30 cm", "80x40x30 cm", "80x30x30 cm"],
+    "price": "S/. 95 - S/. 129",
+    "image": "/images/macetas/cemento/JARDINERA DE CEMENTO.png"
+  },
+  {
+    "id": 2,
+    "category": "maceta de cemento",
+    "name": "Macetas huevo",
+    "description": "Fabricadas en cemento de color natural, son resistentes, duraderas y aptas tanto para interiores como exteriores. Se pueden pintar por un costo adicional, dependiendo del tamaño. Consulta por colores y disponibilidad.",
+    "medidas": ["60x50 cm", "45x50 cm", "35x40 cm"],
+    "price": "S/. 80 - S/. 130",
+    "image": "/images/macetas/cemento/MACETA HUEVO.png"
+  },
+  {
+    "id": 3,
+    "category": "maceta de cemento",
+    "name": "Macetas cubo",
+    "description": "Fabricadas en cemento de color natural, son resistentes, duraderas y aptas tanto para interiores como exteriores. Se pueden pintar por un costo adicional, dependiendo del tamaño. Consulta por colores y disponibilidad.",
+    "medidas": ["50x50 cm", "40x40 cm", "30x30 cm"],
+    "price": "S/. 70 - S/. 120",
+    "image": "/images/macetas/cemento/MACETA CUBO.png"
+  },
+  {
+    "id": 4,
+    "category": "maceta de cemento",
+    "name": "MACETA ESFERA.png",
+    "description": "Fabricadas en cemento de color natural, son resistentes, duraderas y aptas tanto para interiores como exteriores. Se pueden pintar por un costo adicional, dependiendo del tamaño. Consulta por colores y disponibilidad.",
+    "medidas": ["50 cm", "40 cm", "30 cm"],
+    "price": "S/. 99 - S/. 135",
+    "image": "/images/macetas/cemento/MACETA ESFERA.png"
+  },
+  {
+    "id": 5,
+    "category": "maceta de cemento",
+    "name": "Macetas conica",
+    "description": "Fabricadas en cemento de color natural, son resistentes, duraderas y aptas tanto para interiores como exteriores. Se pueden pintar por un costo adicional, dependiendo del tamaño. Consulta por colores y disponibilidad.",
+    "medidas": ["40x30 cm", "45x30 cm", "60x40 cm", "80x40 cm"],
+    "price": "S/. 60 - S/. 129",
+    "image": "/images/macetas/cemento/MACETA CONICA CEMENTO.png"
+  },
+  {
+    "id": 6,
+    "category": "maceta de cemento",
+    "name": "Macetas mexicana",
+    "description": "Fabricadas en cemento de color natural, son resistentes, duraderas y aptas tanto para interiores como exteriores. Se pueden pintar por un costo adicional, dependiendo del tamaño. Consulta por colores y disponibilidad.",
+    "medidas": ["34x27 cm", "42x35 cm", "50x45 cm", "57x45 cm"],
+    "price": "S/. 69 - S/. 119",
+    "image": "/images/macetas/cemento/MACETA MEXICANA.png"
+  }
+]
