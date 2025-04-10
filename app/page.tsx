@@ -5,6 +5,8 @@ import Banner from "./shared/components/banner/Banner";
 
 import products from "../data/products/plantas/plantas.json";
 import macetasFibra from "../data/products/macetas/macetas-fibra.json";
+import macetasCemento from "../data/products/macetas/macetas-cemento.json";
+import macetasArcilla from "../data/products/macetas/macetas-arcilla.json";
 
 import { IProducts } from './interface/products';
 /* import Products from "./components/products/Products"; */
@@ -49,6 +51,8 @@ export default function Home() {
           <Title title="PRODUCTOS" />
           <ProductSection title="PLANTAS" products={products} handleOpenModal={handleOpenModal} />
           <ProductSection title="MACETAS" products={macetasFibra} handleOpenModal={handleOpenModal} />
+          <ProductSection title="MACETAS" products={macetasCemento} handleOpenModal={handleOpenModal} />
+          <ProductSection title="MACETAS" products={macetasArcilla} handleOpenModal={handleOpenModal} />
           <Dialog open={!!selectedProduct} onOpenChange={handleCloseModal}>
             <DialogContent className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 p-4">
               <div className="bg-white relative mb:p-6 p-4 rounded-lg shadow-lg max-w-4xl w-full flex flex-col md:flex-row items-center md:items-start">

@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "category": "maceta de arcilla",
+    "name": "Balde Mexicano",
+    "description": "Fabricadas en material resistente, son duraderas y aptas tanto para interiores como exteriores. Se pueden pintar por un costo adicional, dependiendo del tamaño. Consulta por colores y disponibilidad. (No incluye plato, es adicional).",
+    "medidas": [
+      "39.5x35.5 cm (Boca x Altura)",
+      "33.5x31 cm",
+      "28x26 cm",
+      "24x21.5 cm",
+      "20x18 cm"
+    ],
+    "price": "S/. 15 - S/. 30",
+    "image": "/images/macetas/arcilla/BALDE MEXICANO.png"
+  },
+  {
+    "id": 2,
+    "category": "maceta de arcilla",
+    "name": "Balde Liso",
+    "description": "Fabricadas en material resistente, son duraderas y aptas tanto para interiores como exteriores. Se pueden pintar por un costo adicional, dependiendo del tamaño. Consulta por colores y disponibilidad. (No incluye plato, es adicional).",
+    "medidas": [
+      "39.5x35.5 cm (Boca x Altura)",
+      "33.5x31 cm",
+      "28x26 cm",
+      "24x21.5 cm",
+      "20x18 cm"
+    ],
+    "price": "S/. 15 - S/. 30",
+    "image": "/images/macetas/arcilla/BALDE LISO.png"
+  },
+  {
+    "id": 3,
+    "category": "maceta de arcilla",
+    "name": "Bombay",
+    "description": "Fabricadas en material resistente, son duraderas y aptas tanto para interiores como exteriores. Se pueden pintar por un costo adicional, dependiendo del tamaño. Consulta por colores y disponibilidad. (No incluye plato, es adicional).",
+    "medidas": [
+      "39.5x35.5 cm (Boca x Altura)",
+      "33.5x31 cm",
+      "28x26 cm",
+      "24x21.5 cm",
+      "20x18 cm"
+    ],
+    "price": "S/. 15 - S/. 30",
+    "image": "/images/macetas/arcilla/BOMBAY.png"
+  },
+  {
+    "id": 4,
+    "category": "maceta de arcilla",
+    "name": "Chilena",
+    "description": "Fabricadas en material resistente, son duraderas y aptas tanto para interiores como exteriores. Se pueden pintar por un costo adicional, dependiendo del tamaño. Consulta por colores y disponibilidad. (No incluye plato, es adicional).",
+    "medidas": [
+      "39.5x35.5 cm (Boca x Altura)",
+      "33.5x31 cm",
+      "28x26 cm",
+      "24x21.5 cm",
+      "20x18 cm"
+    ],
+    "price": "S/. 15 - S/. 30",
+    "image": "/images/macetas/arcilla/CHILENA.png"
+  },
+  {
+    "id": 5,
+    "category": "maceta de arcilla",
+    "name": "Panal",
+    "description": "Fabricadas en material resistente, son duraderas y aptas tanto para interiores como exteriores. Se pueden pintar por un costo adicional, dependiendo del tamaño. Consulta por colores y disponibilidad. (No incluye plato, es adicional).",
+    "medidas": [
+      "39.5x35.5 cm (Boca x Altura)",
+      "33.5x31 cm",
+      "28x26 cm",
+      "24x21.5 cm",
+      "20x18 cm"
+    ],
+    "price": "S/. 15 - S/. 30",
+    "image": "/images/macetas/arcilla/PANAL.png"
+  },
+  {
+    "id": 6,
+    "category": "maceta de arcilla",
+    "name": "Cilindro",
+    "description": "Fabricadas en material resistente, son duraderas y aptas tanto para interiores como exteriores. Se pueden pintar por un costo adicional, dependiendo del tamaño. Consulta por colores y disponibilidad. (No incluye plato, es adicional).",
+    "medidas": [
+      "30x30 cm (Diámetro x Altura)",
+      "25x25 cm",
+      "20x20 cm",
+      "16x16 cm"
+    ],
+    "price": "S/. 19 - S/. 30",
+    "image": "/images/macetas/arcilla/CILINDRO.png"
+  },
+  {
+    "id": 7,
+    "category": "maceta de arcilla",
+    "name": "Esfera",
+    "description": "Fabricadas en material resistente, son duraderas y aptas tanto para interiores como exteriores. Se pueden pintar por un costo adicional, dependiendo del tamaño. Consulta por colores y disponibilidad. (No incluye plato, es adicional).",
+    "medidas": [
+      "30x32.5 cm (Diámetro x Altura)",
+      "25x28.5 cm",
+      "21x23.5 cm",
+      "16x19 cm",
+      "14.5x16 cm"
+    ],
+    "price": "S/. 15 - S/. 59",
+    "image": "/images/macetas/arcilla/ESFERA.png"
+  },
+  {
+    "id": 8,
+    "category": "maceta de arcilla",
+    "name": "Pera",
+    "description": "Fabricadas en material resistente, son duraderas y aptas tanto para interiores como exteriores. Se pueden pintar por un costo adicional, dependiendo del tamaño. Consulta por colores y disponibilidad. (No incluye plato, es adicional).",
+    "medidas": [
+      "Pera Ancha: 29.5x39 cm",
+      "Pera Alta: 26x45 cm",
+      "Pera Ancha Tercera: 21.5x30 cm",
+      "Pera Ancha: 18x25 cm",
+      "Pera Ancha: 15.5x20 cm",
+      "Pera Ancha: 13x16.5 cm"
+    ],
+    "price": "S/. 15 - S/. 59",
+    "image": "/images/macetas/arcilla/PERA.png"
+  },
+  {
+    "id": 9,
+    "category": "maceta de arcilla",
+    "name": "Cono",
+    "description": "Fabricadas en material resistente, son duraderas y aptas tanto para interiores como exteriores. Se pueden pintar por un costo adicional, dependiendo del tamaño. Consulta por colores y disponibilidad. (No incluye plato, es adicional).",
+    "medidas": [
+      "Cono Delgado XXXL: 40x60 cm",
+      "Cono Ancho XXXL: 62x55 cm",
+      "Cono Liso Grande: 34x45 cm",
+      "Cono Liso Mediano: 29x40 cm",
+      "Cono Liso Tercero: 24x35 cm"
+    ],
+    "price": "S/. 25 - S/. 180",
+    "image": "/images/macetas/arcilla/CONO.png"
+  }
+]
