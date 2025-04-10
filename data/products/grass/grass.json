@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "category": "Grass",
+    "name": "Grass Americano",
+    "description": "El Grass Americano es la opción más comercial, económica y resistente para jardines, parques y áreas recreativas. Su adaptabilidad a diversos suelos y su tolerancia a climas cálidos lo convierten en la elección ideal para quienes buscan un césped duradero y de bajo mantenimiento. Con una textura suave y un verde vibrante. VENTA POR MAYOR Y MENOR. Consulte el envío de acuerdo al distrito.",
+    "price": "S/. 12 por m²",
+    "image": "/images/grass/grass_americano.png"
+  },
+  {
+    "id": 2,
+    "category": "Grass",
+    "name": "Grass Paspalum",
+    "description": "El Grass Paspalum es un césped de alta resistencia, ideal para jardines, áreas de alto tránsito y especialmente para canchas deportivas. Se adapta perfectamente a climas cálidos y húmedos, destacando por su capacidad para tolerar suelos salinos, lo que lo convierte en la opción ideal para zonas costeras. VENTA POR MAYOR Y MENOR. Consulte el envío de acuerdo al distrito.",
+    "price": "S/. 17 por m²",
+    "image": "/images/grass/grass_paspalum.png"
+  },
+  {
+    "id": 3,
+    "category": "Grass",
+    "name": "Grass Bermuda",
+    "description": "El césped Bermuda es una excelente opción para jardines, canchas deportivas y áreas de alto tránsito, gracias a su rápido crecimiento, resistencia y textura densa de un verde vibrante. Su capacidad de recuperación lo hace ideal para espacios donde se requiere un césped duradero y fácil de mantener. VENTA POR MAYOR Y MENOR. Consulte el envío de acuerdo al distrito.",
+    "price": "S/. 14 por m²",
+    "image": "/images/grass/grass_bermuda.png"
+  },
+  {
+    "id": 4,
+    "category": "Grass",
+    "name": "Grass Chino Japonés",
+    "description": "El Grass Chino Japonés es el césped más tupido y estéticamente atractivo, ideal para quienes buscan una cobertura densa y uniforme en jardines y áreas recreativas. Su crecimiento compacto y suave al tacto le da un acabado elegante y de alta calidad. Además, es altamente resistente al calor y la sequía. VENTA POR MAYOR Y MENOR. Consulte el envío de acuerdo al distrito.",
+    "price": "S/. 22 por m²",
+    "image": "/images/grass/grass_chino.png"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "category": "baño ecologico",
+    "name": "Bañito 50x50 XS",
+    "description": "Bandeja de madera con grass natural, ideal para que tu mascota tenga un espacio cómodo, ecológico y práctico. Incluye instalación del grass natural, lista para usar. Delivery disponible (costo adicional según distrito).",
+    "medidas": ["50x50 cm"],
+    "price": "S/. 99.00",
+    "image": "/images/mascota/bañito_50x50cm.png"
+  },
+  {
+    "id": 2,
+    "category": "baño ecologico",
+    "name": "Bañito 70x50 S",
+    "description": "Bandeja de madera con grass natural, ideal para que tu mascota tenga un espacio cómodo, ecológico y práctico. Incluye instalación del grass natural, lista para usar. Delivery disponible (costo adicional según distrito).",
+    "medidas": ["70x50 cm"],
+    "price": "S/. 119.00",
+    "image": "/images/mascota/bañito_70x50cm.png"
+  },
+  {
+    "id": 3,
+    "category": "baño ecologico",
+    "name": "Bañito 90x60 M",
+    "description": "Bandeja de madera con grass natural, ideal para que tu mascota tenga un espacio cómodo, ecológico y práctico. Incluye instalación del grass natural, lista para usar. Delivery disponible (costo adicional según distrito).",
+    "medidas": ["90x60 cm"],
+    "price": "S/. 135.00",
+    "image": "/images/mascota/bañito_90x60cm.png"
+  },
+  {
+    "id": 4,
+    "category": "baño ecologico",
+    "name": "Bañito 100x70 L",
+    "description": "Bandeja de madera con grass natural, ideal para que tu mascota tenga un espacio cómodo, ecológico y práctico. Incluye instalación del grass natural, lista para usar. Delivery disponible (costo adicional según distrito).",
+    "medidas": ["100x70 cm"],
+    "price": "S/. 159.00",
+    "image": "/images/mascota/bañito_100x70cm.png"
+  },
+  {
+    "id": 5,
+    "category": "baño ecologico",
+    "name": "Bañito 100x100 XL",
+    "description": "Bandeja de madera con grass natural, ideal para que tu mascota tenga un espacio cómodo, ecológico y práctico. Incluye instalación del grass natural, lista para usar. Delivery disponible (costo adicional según distrito).",
+    "medidas": ["100x100 cm"],
+    "price": "S/. 199.00",
+    "image": "/images/mascota/bañito_100x100cm.png"
+  },
+  {
+    "id": 6,
+    "category": "baño ecologico",
+    "name": "Bañito 100x150 XXL",
+    "description": "Bandeja de madera con grass natural, ideal para que tu mascota tenga un espacio cómodo, ecológico y práctico. Incluye instalación del grass natural, lista para usar. Delivery disponible (costo adicional según distrito).",
+    "medidas": ["100x150 cm"],
+    "price": "S/. 239.00",
+    "image": "/images/mascota/bañito_100x150cm.png"
+  }
+]

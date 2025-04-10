@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "category": "Arreglos Florales",
+    "name": "Girasol",
+    "description": "Ramo Encantador de Girasoles. Este hermoso ramo está compuesto por dos girasoles de vivero, acompañados de un delicado follaje y flores de estación. Todo envuelto en papel coreano con tarjeta de dedicatoria. Perfecto para regalar o decorar.",
+    "price": "S/. 20.00",
+    "image": "/images/adornos/girasol.png"
+  },
+  {
+    "id": 2,
+    "category": "Arreglos Florales",
+    "name": "Rosas Blancas",
+    "description": "Ramo de 6 Rosas Blancas con Lluvia y Astromelia. Elegante ramo envuelto en papel coreano, compuesto por rosas blancas, astromelia y flores de lluvia. Ideal para ocasiones especiales.",
+    "price": "S/. 29.00",
+    "image": "/images/adornos/rosas_blancas.png"
+  },
+  {
+    "id": 3,
+    "category": "Arreglos Florales",
+    "name": "Rosas Rosadas",
+    "description": "Ramo de 6 Rosas con Lluvia. Exquisito ramo de rosas rosadas acompañadas de flores de lluvia, envuelto en papel coreano. Detalle fresco y hermoso.",
+    "price": "S/. 29.00",
+    "image": "/images/adornos/rosas_rosadas.png"
+  },
+  {
+    "id": 4,
+    "category": "Arreglos Florales",
+    "name": "Rosas Amor",
+    "description": "Ramo Amor de 30 rosas perfumadas con xius blanco, envuelto en papel coreano con tarjeta de dedicatoria. Ideal para expresar amor a esa persona especial.",
+    "price": "S/. 100.00",
+    "image": "/images/adornos/rosas_amor.png"
+  },
+  {
+    "id": 5,
+    "category": "Arreglos Florales",
+    "name": "Ramo Hotwheels",
+    "description": "Ramo único inspirado en Hotwheels con rosa azul y flores de estación. Incluye lazo decorativo y tarjeta de dedicatoria. Original y con estilo.",
+    "price": "S/. 29.00",
+    "image": "/images/adornos/ramo_hotwheels.png"
+  },
+  {
+    "id": 6,
+    "category": "Arreglos Florales",
+    "name": "Arreglo Corazón",
+    "description": "Arreglo floral con 6 rosas, claveles y girasol, decorado con papel coreano y lazo. Incluye tarjeta para dedicatoria. Perfecto para cualquier ocasión.",
+    "price": "S/. 80.00",
+    "image": "/images/adornos/arreglo_corazon.png"
+  },
+  {
+    "id": 7,
+    "category": "Arreglos Florales",
+    "name": "Box Te Amo",
+    "description": "Box con 12 rosas frescas, lazo decorativo y globito metálico. Ideal para expresar tus sentimientos a esa persona especial.",
+    "price": "S/. 75.00",
+    "image": "/images/adornos/box_te_amo.png"
+  },
+  {
+    "id": 8,
+    "category": "Arreglos Fúnebres",
+    "name": "Funebre Trípode",
+    "description": "Arreglo en trípode con rosas, gladiolos, pompones y lluvias. Diseño sofisticado y único para expresar elegancia y frescura.",
+    "price": "S/. 200.00",
+    "image": "/images/adornos/funebre_tripode.png"
+  },
+  {
+    "id": 9,
+    "category": "Arreglos Fúnebres",
+    "name": "Funebre Lágrima",
+    "description": "Lágrima fúnebre con flores seleccionadas para expresar recuerdo y amor por un ser querido. Diseño elegante y solemne.",
+    "price": "S/. 95.00",
+    "image": "/images/adornos/funebre_lagrima.png"
+  },
+  {
+    "id": 10,
+    "category": "Arreglos Fúnebres",
+    "name": "Funebre Cruz",
+    "description": "Cruz fúnebre de rosas rojas y blancas. Símbolo de respeto y amor eterno para homenajear a un ser querido.",
+    "price": "S/. 169.00",
+    "image": "/images/adornos/funebre_cruz.png"
+  }
+]

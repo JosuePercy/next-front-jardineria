@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "category": "Abonos y Tierras",
+    "name": "Tierra de Chacra para Pozo",
+    "description": "Tierra para Relleno de Pozo a Tierra (Cernida, 30 kg). Mezcla ideal para pozos a tierra, compuesta por tierra orgánica ligera, arena gruesa y grava, que asegura un drenaje eficiente y buena aireación. Libre de arcilla pesada, favorece la infiltración del agua y evita el estancamiento. Venta al por mayor y menor. Consulta disponibilidad por WhatsApp.",
+    "price": "S/. 10.00 por saco de 30 kg",
+    "image": "/images/abono/tierra_pozo.jpg"
+  },
+  {
+    "id": 2,
+    "category": "Abonos y Tierras",
+    "name": "Tierra de Chacra para Relleno",
+    "description": "Tierra de Chacra para Relleno de Jardín (35 kg). Tierra rica y nutritiva, ideal para rellenar jardines y huertos. Esta tierra mejora la estructura del suelo, proporcionando una base fértil para el crecimiento de las plantas. Es perfecta para nivelar terrenos, mejorar el drenaje y enriquecer el suelo con materia orgánica. Venta al por mayor y menor. Consulta disponibilidad por WhatsApp.",
+    "price": "S/. 10.00 por saco de 35 kg",
+    "image": "/images/abono/tierra_relleno.jpg"
+  },
+  {
+    "id": 3,
+    "category": "Abonos y Tierras",
+    "name": "Tierra Preparada",
+    "description": "Tierra preparada 30 kg. Ideal para jardines y proyectos paisajísticos, esta mezcla equilibrada de tierra de chacra, compost, aserrín y ripios de madera picada proporciona nutrientes esenciales para el crecimiento saludable de las plantas. Venta al por mayor y menor. Consulta disponibilidad por WhatsApp.",
+    "price": "S/. 14.90 por saco de 30 kg",
+    "image": "/images/abono/tierra_preparada.png"
+  },
+  {
+    "id": 4,
+    "category": "Abonos y Tierras",
+    "name": "Compost",
+    "description": "Saco de Compost de 25 kg. Abono orgánico de excelente calidad, perfecto para plantas que requieren una mayor cantidad de materia orgánica. Ideal para mezclar con la tierra en macetas o para la instalación de césped en jardines, promoviendo un crecimiento saludable. Venta al por mayor y menor. Consulta disponibilidad por WhatsApp.",
+    "price": "S/. 15.00 por saco de 25 kg",
+    "image": "/images/abono/tierra_compost.png"
+  },
+  {
+    "id": 5,
+    "category": "Abonos y Tierras",
+    "name": "Humus de Lombriz",
+    "description": "Saco de Humus de Lombriz de 25 kg. Abono orgánico de alta concentración, ideal para enriquecer la tierra de macetas y jardines. Aporta nutrientes esenciales que favorecen el crecimiento vigoroso de las plantas, mejorando la estructura del suelo y aumentando la retención de humedad. Venta al por mayor y menor. Consulta disponibilidad por WhatsApp.",
+    "price": "S/. 23.00 por saco de 25 kg",
+    "image": "/images/abono/tierra_humus.png"
+  },
+  {
+    "id": 6,
+    "category": "Abonos y Tierras",
+    "name": "Estiércol de Res",
+    "description": "Saco de Estiércol de Res de 25 kg. Abono orgánico de alta calidad que mejora la estructura del suelo, favoreciendo su aireación y retención de humedad. Proporciona nutrientes esenciales como nitrógeno, fósforo y potasio, promoviendo un crecimiento saludable y una mayor fertilidad del suelo en jardines, huertos y macetas. Venta al por mayor y menor. Consulta disponibilidad por WhatsApp.",
+    "price": "S/. 20.00 por saco de 25 kg",
+    "image": "/images/abono/tierra_estiercol_res.png"
+  },
+  {
+    "id": 7,
+    "category": "Abonos y Tierras",
+    "name": "Guano de Caballo",
+    "description": "Saco de Guano de Caballo de 20 kg. Abono orgánico natural de excelente calidad, ideal para enriquecer la tierra de jardines, huertos y macetas. El guano de caballo es rico en nutrientes como nitrógeno, fósforo y potasio, que favorecen un crecimiento fuerte y saludable de las plantas. Además, mejora la textura del suelo. Venta al por mayor y menor. Consulta disponibilidad por WhatsApp.",
+    "price": "S/. 20.00 por saco de 20 kg",
+    "image": "/images/abono/tierra_aguano_caballo.png"
+  },
+  {
+    "id": 8,
+    "category": "Abonos y Tierras",
+    "name": "Mulch",
+    "description": "Bolsa de Mulch de 5 kg. Mulch orgánico de alta calidad, ideal para proteger el suelo en jardines, huertos y macetas. Ayuda a conservar la humedad del suelo, previene el crecimiento de malas hierbas y regula la temperatura del suelo. Además, al descomponerse, enriquece el suelo con nutrientes esenciales. Venta al por mayor y menor. Consulta disponibilidad por WhatsApp.",
+    "price": "S/. 12.00 por bolsa de 5 kg",
+    "image": "/images/abono/tierra_mulch.png"
+  }
+]
