@@ -3,8 +3,7 @@ import { IProducts } from '@/app/interface/products';
 import { formatPrice } from '../../../lib/formatPrice';
 import { msjWhatsapp } from '@/app/config/messageWsp';
 import { DialogHeader } from '@/components/ui/dialog';
-import { DialogClose, DialogTitle } from '@radix-ui/react-dialog';
-import { X } from 'lucide-react';
+import { DialogTitle } from '@radix-ui/react-dialog';
 
 interface IProductModalProps {
   product: IProducts;
@@ -16,7 +15,7 @@ const ProductModal = ({ product, handleCloseModal }: IProductModalProps) => {
 
   return (
     
-    <div className="fixed w-full max-w-4xl overflow-y-auto inset-0 z-[999] bg-white rounded-xl shadow-lg p-4 md:p-6 relative flex flex-col gap-6 sm:flex-row">
+    <div className=" w-full max-w-4xl overflow-y-auto inset-0 z-[999] bg-white rounded-xl  p-4 md:p-6 relative flex flex-col gap-6 sm:flex-row">
       <div className="w-full sm:w-1/2 flex w- justify-center items-start">
         <img
           src={product.image}
@@ -26,15 +25,6 @@ const ProductModal = ({ product, handleCloseModal }: IProductModalProps) => {
       </div>
 
       <div className="w-full flex sm:w-1/2  flex-col relative ">
-        <DialogClose  asChild>
-          <button
-            onClick={handleCloseModal}
-            className="flex justify-end  text-gray-500 hover:text-gray-800 transition z-10"
-          >
-            <X className="w-6 h-6" />
-          </button>
-        </DialogClose>
-
         <DialogHeader>
           <DialogTitle className="sm:text-1xl md:text-[1.3rem] text-[1rem] font-bold mb-2">
             {product.name}
@@ -70,6 +60,12 @@ const ProductModal = ({ product, handleCloseModal }: IProductModalProps) => {
           <img src="/wassap.svg" alt="WhatsApp" className="w-5 h-5" />
           Comprar por WhatsApp
         </a>
+          <button
+            onClick={handleCloseModal}
+            className="mt-4 text-gray-400 mx-auto w-fit hover:text-slate-500 text-sm"
+          >
+            Cerrar
+          </button>
       </div>
     </div>
   );
