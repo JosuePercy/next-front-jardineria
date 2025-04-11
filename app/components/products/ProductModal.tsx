@@ -15,9 +15,8 @@ const ProductModal = ({ product, handleCloseModal }: IProductModalProps) => {
   if (!product) return null;
 
   return (
-    <div className="w-full max-w-4xl overflow-y-auto bg-white rounded-xl shadow-lg p-4 md:p-6 relative flex flex-col gap-6 sm:flex-row">
-
-      {/* Imagen del producto */}
+    
+    <div className="fixed w-full max-w-4xl overflow-y-auto inset-0 z-[999] bg-white rounded-xl shadow-lg p-4 md:p-6 relative flex flex-col gap-6 sm:flex-row">
       <div className="w-full sm:w-1/2 flex w- justify-center items-start">
         <img
           src={product.image}
@@ -26,9 +25,7 @@ const ProductModal = ({ product, handleCloseModal }: IProductModalProps) => {
         />
       </div>
 
-      {/* Contenido */}
       <div className="w-full flex sm:w-1/2  flex-col relative ">
-        {/* Botón cerrar */}
         <DialogClose  asChild>
           <button
             onClick={handleCloseModal}
@@ -48,7 +45,6 @@ const ProductModal = ({ product, handleCloseModal }: IProductModalProps) => {
           {product.description}
         </p>
 
-        {/* Medidas */}
          {product.medidas && product.medidas.length > 0 && (
           <div className="mb-4">
             <p className="font-semibold text-sm">Medidas disponibles:</p>
@@ -60,13 +56,11 @@ const ProductModal = ({ product, handleCloseModal }: IProductModalProps) => {
           </div>
         )}
 
-        {/* Precio */}
         <div className="mb-6 flex gap-2 items-center text-sm">
           <span className="font-semibold">Precio:</span>
           <span>{formatPrice(product.price)}</span>
         </div>
 
-        {/* Botón WhatsApp */}
         <a
           href={msjWhatsapp + product.name + '*'}
           target="_blank"

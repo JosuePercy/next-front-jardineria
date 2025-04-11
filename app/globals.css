@@ -151,3 +151,8 @@ h3 {
   border-top: none;
   transform: rotate(270deg);
 }
+
+
+body.modal-open iframe {
+  pointer-events: none;
+}
