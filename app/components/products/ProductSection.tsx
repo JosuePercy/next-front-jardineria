@@ -14,7 +14,7 @@ interface IProductsSectionProps {
 
 const ProductSection = ({title, products, handleOpenModal}: IProductsSectionProps) => {
   return (
-      <div className="w-full flex flex-col items-center">       
+      <div className="w-full flex flex-col items-center z-10">       
           {/* Contenedor principal con tamaño fijo */}
           <div className="w-full mb:px-4 px-0 ">
               <h1 className="  text-3xl font-bold  mt-10">{title}</h1>

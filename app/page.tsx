@@ -42,7 +42,7 @@ export default function Home() {
   const handleCloseModal = () => {
     setSelectedProduct(null)
   }
-
+  
   return (
     <main>
       <Banner />
@@ -61,7 +61,7 @@ export default function Home() {
           <ProductSection title="MACETAS" products={Grass} handleOpenModal={handleOpenModal} />
           <ProductSection title="MACETAS" products={AdornosFlorales} handleOpenModal={handleOpenModal} />
           <Dialog open={!!selectedProduct} onOpenChange={handleCloseModal}>
-            <DialogContent className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 p-4">
+            <DialogContent className="fixed inset-0 flex items-center justify-center z-[1] bg-black bg-opacity-50 p-4">
               <div className="bg-white relative mb:p-6 p-4 rounded-lg shadow-lg max-w-4xl w-full flex flex-col md:flex-row items-center md:items-start">
                 {selectedProduct && (
                   <ProductModal handleCloseModal={handleCloseModal} product={selectedProduct} />
