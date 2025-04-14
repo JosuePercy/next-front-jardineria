@@ -37,8 +37,8 @@ export const Products = ({ product, onClick }: ProductsProps) => {
                     <p
                         id={`product-title-${product.id}`}
                         className="font-bold text-black truncate text-sm  capitalize"
-                    >
-                        {product.name}
+                        >
+                            {product.name}
                     </p>
                 </a>
                 <span className="text-gray-400 mr-3 uppercase text-xs">
