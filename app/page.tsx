@@ -30,10 +30,9 @@ import { MessageCircle, X } from "lucide-react";
 
 export default function Home() {
 
-
   const [selectedProduct, setSelectedProduct] = useState<IProducts | null>(null)
 
-  const [isWhatsAppOpen, setIsWhatsAppOpen] = useState(false); // Estado para el dialog de WhatsApp
+  const [isWhatsAppOpen, setIsWhatsAppOpen] = useState(false)
 
   const handleOpenModal = (product: IProducts) => {
     setSelectedProduct(product)
