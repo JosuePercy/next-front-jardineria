@@ -124,15 +124,15 @@ export default function Home() {
           {/* Pie del chat (opcional) */}
           <div className="flex justify-end w-full mb-5 px-2">
             <div className="flex items-center justify-center bg-green-500 text-white w-48 h-14 rounded-full shadow-lg hover:bg-green-600 transition duration-300">
-              <Link
-                href={`https://wa.me/${process.env.NEXT_PUBLIC_WSP_NUM}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex w-full justify-evenly items-center space-x-2"
-              >
-                <span className="text-lg">Abrir chat</span>
-                <MessageCircle className="w-6 h-6" />
-              </Link>
+                <Link
+                  href={`https://wa.me/${process.env.NEXT_PUBLIC_WSP_NUM}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex w-full justify-evenly items-center space-x-2"
+                >
+                  <span className="text-lg">Abrir chat</span>
+                  <MessageCircle className="w-6 h-6" />
+                </Link>
             </div>
           </div>
         </DialogContent>
