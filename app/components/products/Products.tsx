@@ -59,7 +59,7 @@ export const Products = ({ product, onClick }: ProductsProps) => {
                             fill="currentColor"
                             className="bi bi-bag-plus"
                             viewBox="0 0 16 16"
-                        >
+                        >   
                             <path
                                 fillRule="evenodd"
                                 d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"
@@ -70,7 +70,7 @@ export const Products = ({ product, onClick }: ProductsProps) => {
                 </div>
                 <div>
                     <a
-                        href={msjWhatsapp + product.name + "*"}
+                        href={msjWhatsapp(product.name)}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-[#99CC66] text-white py-3 px-6 rounded-lg shadow-lg hover:bg-[#33cc66ba] transition duration-300 w-full flex items-center justify-center gap-2 no-underline"
