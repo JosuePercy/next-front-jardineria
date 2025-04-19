@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { formatPrice } from '@/lib/formatPrice';
 import { IProducts } from '../../interface/products';
-
+    
 interface ProductsProps {
     product: IProducts;
     onClick: () => void;

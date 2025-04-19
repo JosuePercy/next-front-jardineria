@@ -15,5 +15,5 @@ export async function GET(request: Request) {
 
   const whatsappURL = `https://api.whatsapp.com/send?phone=${baseNumber}&text=${message}`;
 
-  return NextResponse.redirect(whatsappURL);
+  return NextResponse.redirect(whatsappURL);  
 }
