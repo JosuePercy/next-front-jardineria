@@ -11,10 +11,9 @@ import { Card, CardContent } from '@/components/ui/card';
 const Banner = () => {
   // Array de imágenes para el carrusel
   const images = [
-    'images/banner/1.jpg',
-    'images/banner/2.jpg',
-    'images/banner/3.jpg',
-    'images/banner/4.jpg',
+    'images/banner/espacio.webp',
+    'images/banner/grass.webp',
+    'images/banner/macetas.webp',
   ];
 
   return (
