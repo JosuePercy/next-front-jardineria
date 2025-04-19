@@ -1,5 +1,6 @@
 'use client';
 import React, { ChangeEvent, FormEvent, useState } from 'react'
+import Title from '../ui/title/Title';
 
 
 type FormData = {
@@ -68,7 +69,7 @@ const Contact = () => {
 
     return (
         <section id="contact" className="mx-auto">
-            <h2 className="text-2xl font-bold text-center text-gray-800 mb-4 mt-5">Contáctanos</h2>
+            <Title title='Contáctanos' />
             <div className="flex flex-col md:flex-row bg-white shadow-md rounded-lg overflow-hidden p-6">
                 {/* Mapa */}
                 <div className="w-full md:w-1/2 h-64 md:h-auto relative">
