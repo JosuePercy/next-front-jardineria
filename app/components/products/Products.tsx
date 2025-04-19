@@ -1,14 +1,12 @@
+'use client';
 /* eslint-disable @next/next/no-img-element */
 import { formatPrice } from '@/lib/formatPrice';
 import { IProducts } from '../../interface/products';
-import { msjWhatsapp } from '@/app/config/messageWsp';
-
 
 interface ProductsProps {
     product: IProducts;
     onClick: () => void;
 }
-
 
 export const Products = ({ product, onClick }: ProductsProps) => {
 /*     const msjWhatsapp = "https://api.whatsapp.com/send?phone=+51992693050&text=🌹🌿☘ *¡Hola! * Quiero comprar este producto * " */
@@ -70,7 +68,7 @@ export const Products = ({ product, onClick }: ProductsProps) => {
                 </div>
                 <div>
                     <a
-                        href={msjWhatsapp(product.name)}
+                        href={`/api/whatsapp-link?product=${encodeURIComponent(product.name)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-[#99CC66] text-white py-3 px-6 rounded-lg shadow-lg hover:bg-[#33cc66ba] transition duration-300 w-full flex items-center justify-center gap-2 no-underline"
