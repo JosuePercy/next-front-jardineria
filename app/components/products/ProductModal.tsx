@@ -55,7 +55,7 @@ const ProductModal = ({ product, handleCloseModal }: IProductModalProps) => {
           href={msjWhatsapp + product.name + '*'}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-auto bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded-full text-1xl text-center flex text-[0.9rem] items-center justify-center gap-2 shadow-md transition"
+          className="mt-auto bg-green-600 hover:bg-[#a7e16d] text-white py-3 px-6 rounded-full text-1xl text-center flex text-[0.9rem] items-center justify-center gap-2 shadow-md transition"
         >
           <img src="/wassap.svg" alt="WhatsApp" className="w-5 h-5" />
           Comprar por WhatsApp
