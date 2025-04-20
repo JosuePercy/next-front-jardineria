@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { IProducts } from '@/app/interface/products';
 import { formatPrice } from '../../../lib/formatPrice';
-import { msjWhatsapp } from '@/app/config/messageWsp';
 import { DialogHeader } from '@/components/ui/dialog';
 import { DialogTitle } from '@radix-ui/react-dialog';
 
@@ -52,7 +51,7 @@ const ProductModal = ({ product, handleCloseModal }: IProductModalProps) => {
         </div>
 
         <a
-          href={msjWhatsapp + product.name + '*'}
+          href={`/api/whatsapp-link?product=${encodeURIComponent(product.name)}`}
           target="_blank"
           rel="noopener noreferrer"
           className="mt-auto bg-green-600 hover:bg-[#a7e16d] text-white py-3 px-6 rounded-full text-1xl text-center flex text-[0.9rem] items-center justify-center gap-2 shadow-md transition"
