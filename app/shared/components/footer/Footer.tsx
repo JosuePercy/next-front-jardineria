@@ -80,8 +80,8 @@ const Footer = () => (
             Jardinería profesional para un ambiente más verde y saludable.
           </p>
           <Link
-            href="#contact"
-            className="bg-[#FF9900] hover:bg-[#e68a00] text-white py-2 px-6 rounded-full transition-colors duration-300"
+            href="https://api.whatsapp.com/send/?phone=51944543773&text&type=phone_number&app_absent=0"
+            className="bg-[#99CC66]  text-white py-2 px-6 rounded-full transition-colors duration-300"
           >
             Contáctanos
           </Link>
