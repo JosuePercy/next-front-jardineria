@@ -57,7 +57,7 @@ export default function Home() {
           <ProductSection title="MACETAS DE CEMENTO" products={macetasCemento} handleOpenModal={handleOpenModal} />
           <ProductSection title="MACETAS DE ARCILLA" products={macetasArcilla} handleOpenModal={handleOpenModal} />
           <ProductSection title="BAÑOS ECOLÓGICOS" products={bañitoEcologico} handleOpenModal={handleOpenModal} />
-          <ProductSection title="GRASS SINTÉTICO" products={Grass} handleOpenModal={handleOpenModal} />
+          <ProductSection title="GRASS Natural" products={Grass} handleOpenModal={handleOpenModal} />
           <ProductSection title="ADORNOS FLORALES" products={AdornosFlorales} handleOpenModal={handleOpenModal} />
           <Dialog open={!!selectedProduct} onOpenChange={handleCloseModal}>
             <DialogContent className="fixed inset-0 flex items-center justify-center z-[1] bg-black bg-opacity-50 p-4">

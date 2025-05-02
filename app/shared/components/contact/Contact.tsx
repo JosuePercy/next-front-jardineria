@@ -2,7 +2,6 @@
 import React, { ChangeEvent, FormEvent, useState } from 'react'
 import Title from '../ui/title/Title';
 
-
 type FormData = {
     name: string;
     email: string;
@@ -11,7 +10,13 @@ type FormData = {
 }
 
 
+
+
+
+
 const Contact = () => {
+
+    const [errors, setErrors] = useState<Partial<FormData>>({})
 
     const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
     const [submitSuccess, setSubmitSuccess] = useState<boolean>(false);
@@ -22,6 +27,22 @@ const Contact = () => {
         phone: '',
         message: ''
     });
+
+    const validate = () => {
+        const newErrors: Partial<FormData> = {};
+
+        if (!formData.name.trim()) newErrors.name = "El nombre es obligatorio.";
+        if (!formData.email.trim()) {
+            newErrors.email = "El correo es obligatorio.";
+        } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+            newErrors.email = "El correo no es válido.";
+        }
+        if (!formData.phone.trim()) newErrors.phone = "El teléfono es obligatorio.";
+        if (!formData.message.trim()) newErrors.message = "El mensaje es obligatorio.";
+
+        setErrors(newErrors);
+        return Object.keys(newErrors).length === 0;
+    };
 
     const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { value, name } = e.target
@@ -34,6 +55,9 @@ const Contact = () => {
 
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        if (!validate()) {
+            return; 
+        }
         console.log("Datos a enviar:", formData);
         setIsSubmitting(true);
 
@@ -96,87 +120,91 @@ const Contact = () => {
                     </a>
                 </div>
                     <div className="w-full md:w-1/2 py-6 md:p-6">
-                        <form className="space-y-4" onSubmit={handleSubmit}>
-                            <div>
-                                <label className="block text-gray-700 font-medium">Tu nombre *</label>
-                                <input
-                                    type="text"
-                                    placeholder="Nombre"
-                                    name='name'
-                                    value={formData.name}
-                                    onChange={handleChange}
-                                    className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                                />
-                            </div>
-                            <div>
-                                <label className="block text-gray-700 font-medium">Correo electrónico *</label>
-                                <input
-                                    type="email"
-                                    name='email'
-                                    value={formData.email}
-                                    onChange={handleChange}
-                                    placeholder="Email"
-                                    className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                                />
-                            </div>
-                            <div>
-                                <label className="block text-gray-700 font-medium">Teléfono *</label>
-                                <input
-                                    type="tel"
-                                    placeholder="Teléfono"
-                                    name='phone'
-                                    value={formData.phone}
-                                    onChange={handleChange}
-                                    className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                                />
-                            </div>
-                            <div>
-                                <label className="block text-gray-700 font-medium">Descripción *</label>
-                                <textarea
-                                    placeholder="Mensaje"
-                                    name='message'
-                                    value={formData.message}
-                                    onChange={handleChange}
-                                    className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                                ></textarea>
-                            </div>
-                            <button
-                                type="submit"
-                                disabled={isSubmitting}
-                                className={`w-full bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition ${isSubmitting ? "opacity-50 cursor-not-allowed" : ""
-                                    }`}
-                            >
-                                {isSubmitting ? (
-                                    <div className="flex items-center justify-center gap-2">
-                                        <svg
-                                            className="animate-spin h-5 w-5 text-white"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <circle
-                                                className="opacity-25"
-                                                cx="12"
-                                                cy="12"
-                                                r="10"
-                                                stroke="currentColor"
-                                                strokeWidth="4"
-                                            ></circle>
-                                            <path
-                                                className="opacity-75"
-                                                fill="currentColor"
-                                                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                                            ></path>
-                                        </svg>
-                                        Enviando...
-                                    </div>
-                                ) : submitSuccess ? (
-                                    "✓ Enviado"
-                                ) : (
-                                    "Enviar"
-                                )}
-                            </button>
-                        </form>
+                    <form className="space-y-4" onSubmit={handleSubmit}>
+                        <div>
+                            <label className="block text-gray-700 font-medium">Tu nombre *</label>
+                            <input
+                                type="text"
+                                placeholder="Nombre"
+                                name="name"
+                                value={formData.name}
+                                onChange={handleChange}
+                                className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                            />
+                            {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
+                        </div>
+                        <div>
+                            <label className="block text-gray-700 font-medium">Correo electrónico *</label>
+                            <input
+                                type="email"
+                                name="email"
+                                value={formData.email}
+                                onChange={handleChange}
+                                placeholder="Email"
+                                className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                            />
+                            {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
+                        </div>
+                        <div>
+                            <label className="block text-gray-700 font-medium">Teléfono *</label>
+                            <input
+                                type="tel"
+                                placeholder="Teléfono"
+                                name="phone"
+                                value={formData.phone}
+                                onChange={handleChange}
+                                className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                            />
+                            {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
+                        </div>
+                        <div>
+                            <label className="block text-gray-700 font-medium">Descripción *</label>
+                            <textarea
+                                placeholder="Mensaje"
+                                name="message"
+                                value={formData.message}
+                                onChange={handleChange}
+                                className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                            ></textarea>
+                            {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message}</p>}
+                        </div>
+                        <button
+                            type="submit"
+                            disabled={isSubmitting}
+                            className={`w-full bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition ${isSubmitting ? "opacity-50 cursor-not-allowed" : ""
+                                }`}
+                        >
+                            {isSubmitting ? (
+                                <div className="flex items-center justify-center gap-2">
+                                    <svg
+                                        className="animate-spin h-5 w-5 text-white"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <circle
+                                            className="opacity-25"
+                                            cx="12"
+                                            cy="12"
+                                            r="10"
+                                            stroke="currentColor"
+                                            strokeWidth="4"
+                                        ></circle>
+                                        <path
+                                            className="opacity-75"
+                                            fill="currentColor"
+                                            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                                        ></path>
+                                    </svg>
+                                    Enviando...
+                                </div>
+                            ) : submitSuccess ? (
+                                "✓ Enviado"
+                            ) : (
+                                "Enviar"
+                            )}
+                        </button>
+                    </form>
                     </div>
             </div>
         </section>
