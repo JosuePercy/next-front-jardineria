@@ -69,7 +69,7 @@ const Contact = () => {
         };
 
         try {
-            const response = await fetch('https://formsubmit.co/ajax/Viverovalledelmantaro@gmail.com', {
+            const response = await fetch('https://formsubmit.co/ajax/viverovalledelmantaro@gmail.com', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
