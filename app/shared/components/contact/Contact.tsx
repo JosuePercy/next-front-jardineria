@@ -76,12 +76,14 @@ const Contact = () => {
                     'Accept': 'application/json'
                 },
                 body: JSON.stringify({ ...formData, ...hiddenFields })
+                
             });
 
             if (response.ok) {
                 setSubmitSuccess(true);
                 setFormData({ name: '', email: '', phone: '', message: '' });
             }
+            console.log("data ==>", response)
         } catch (error) {
             console.error('Error:', error);
         } finally {
