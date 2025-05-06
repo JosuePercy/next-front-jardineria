@@ -94,7 +94,7 @@ const Contact = () => {
 
 
     return (
-        <section id="contact" className="mx-auto">
+        <section id="contact" className="mx-auto mb-10">
             <Title title='Contáctanos' />
             <div className="flex flex-col md:flex-row bg-white shadow-md rounded-lg overflow-hidden p-6">
                 {/* Mapa */}

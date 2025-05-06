@@ -55,8 +55,14 @@ const Banner = () => {
           ))}
         </CarouselContent>
         {/* Flechas de navegación */}
-        <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/50 p-2 rounded-full hover:bg-white/80 transition-colors" />
-        <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/50 p-2 rounded-full hover:bg-white/80 transition-colors" />
+           <CarouselPrevious
+          aria-label="Anterior"
+          className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/50 p-2 rounded-full hover:bg-white/80 transition-colors"
+        />
+        <CarouselNext
+          aria-label="Siguiente"
+          className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/50 p-2 rounded-full hover:bg-white/80 transition-colors"
+        />
       </Carousel>
     </div>
   );

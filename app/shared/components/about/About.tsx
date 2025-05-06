@@ -2,9 +2,9 @@ import React from 'react'
 
 const About = () => {
     return (
-        <section id="about" className="bg-gray-50 py-12 md:py-20 px-6 lg:px-8">
+        <section id="about" className="w-screen relative left-1/2 -translate-x-1/2  bg-gray-50 py-12 md:py-20 px-6 lg:px-8">
             <div className="max-w-6xl mx-auto">
-                <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+                <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
                     {/* Text Section */}
                     <div className="w-full lg:w-1/2 space-y-5">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
@@ -21,10 +21,10 @@ const About = () => {
                             </p>
 
                             <p className="text-base md:text-lg">
-                                Te ayudamos a crear espacios llenos de vida, armonía y frescura. Nuestro objetivo es brindarte más que decoración: te ofrecemos bienestar, purificación y un respiro natural dentro del caos diario.
+                                Llevamos la frescura de la naturaleza hasta tu hogar en Lima. Te ayudamos a crear espacios llenos de vida, armonía y frescura. Nuestro objetivo es brindarte más que decoración: te ofrecemos bienestar, purificación y un respiro natural dentro del caos diario.
                             </p>
                             <p className="text-base md:text-lg italic">
-                                Visítanos y descubre cómo una planta puede transformar no solo tu espacio... sino también tu estado de ánimo.
+                                Descubre cómo una planta puede transformar no solo tu espacio... sino también tu estado de ánimo. Hacemos envíos a todo Lima.
                             </p>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ const About = () => {
                         <div className="w-full max-w-xs md:max-w-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300">
                             <img
                                 src="/about/about.jpg"
-                                alt="Plantas del Vivero Valle del Mantaro"
+                                alt="Plantas a domicilio en Lima - Vivero Valle del Mantaro"
                                 className="w-full h-auto object-cover"
                                 loading="lazy"
                                 style={{ maxHeight: '450px' }}
