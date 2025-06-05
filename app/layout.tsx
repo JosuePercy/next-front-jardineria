@@ -28,12 +28,12 @@ export const metadata: Metadata = {
   description:
     "Venta de plantas, macetas, adornos florales y servicios de jardinería en el Valle del Mantaro. Atención personalizada por WhatsApp.",
   keywords: ["plantas", "macetas", "jardinería", "Valle del Mantaro", "Huancayo", "adornos florales"],
-  authors: [{ name: "Valle del Mantaro", url: "https://next-front-jardineria-chi.vercel.app" }],
+  authors: [{ name: "Valle del Mantaro", url: "https://www.viverovalledelmantaro.pe/" }],
   creator: "Valle del Mantaro",
   openGraph: {
     title: "Valle del Mantaro - Plantas y Jardinería en Perú",
     description: "Venta de productos ecológicos y servicios de jardinería. ¡Contáctanos por WhatsApp!",
-    url: "https://next-front-jardineria-chi.vercel.app",
+    url: "https://www.viverovalledelmantaro.pe/",
     siteName: "Valle del Mantaro",
     images: [
       {

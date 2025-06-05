@@ -9,7 +9,6 @@ interface ProductsProps {
 }
 
 export const Products = ({ product, onClick }: ProductsProps) => {
-
     return (
         <article
             className="w-full bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
@@ -21,7 +20,7 @@ export const Products = ({ product, onClick }: ProductsProps) => {
                 alt={`Imagen de ${product.name}`}
                 className=" h-60 sm:h-80 w-full object-cover rounded-t-xl"
             />
-            <div className="px-[0.55rem] mb:px-4  py-3  ">
+            <div className="px-[0.55rem] mb:px-4  py-3">
                 <a
                     href="asdadsasda"
                     className="block"
