@@ -4,7 +4,6 @@ import "./globals.css";
 import Navbar from "./shared/components/header/Navbar";
 import Footer from "./shared/components/footer/Footer";
 
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -27,7 +26,14 @@ export const metadata: Metadata = {
   },
   description:
     "Venta de plantas, macetas, adornos florales y servicios de jardinería en el Valle del Mantaro. Atención personalizada por WhatsApp.",
-  keywords: ["plantas", "macetas", "jardinería", "Valle del Mantaro", "Huancayo", "adornos florales"],
+  keywords: [
+      "venta de plantas en Perú",
+      "vivero en Huancayo",
+      "jardinería personalizada",
+      "comprar macetas online",
+      "adornos florales para jardín",
+      "Valle del Mantaro vivero"
+    ],
   authors: [{ name: "Valle del Mantaro", url: "https://www.viverovalledelmantaro.pe/" }],
   creator: "Valle del Mantaro",
   openGraph: {
@@ -62,7 +68,7 @@ export const metadata: Metadata = {
 };
 export default function RootLayout({children}: Readonly<{children: React.ReactNode;}>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${MyriadPro.variable} antialiased`}
       >
