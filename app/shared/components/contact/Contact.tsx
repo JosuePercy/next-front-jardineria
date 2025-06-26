@@ -173,7 +173,7 @@ const Contact = () => {
                         <button
                             type="submit"
                             disabled={isSubmitting}
-                            className={`w-full bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition ${isSubmitting ? "opacity-50 cursor-not-allowed" : ""
+                            className={`w-full bg-[#99CC66] hover:bg-[#a7e16d] text-white font-bold py-2 px-4 rounded-md  transition ${isSubmitting ? "opacity-50 cursor-not-allowed" : ""
                                 }`}
                         >
                             {isSubmitting ? (
