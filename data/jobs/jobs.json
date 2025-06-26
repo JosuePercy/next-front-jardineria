@@ -2,7 +2,7 @@
   { 
     "id": 1,
     "title": "Servicio a domicilio",
-    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2023/06/Servicio-a-domicilio-en-lima1.jpg",
+    "image": "/images/services-jobs/pasaje-plantas-al-rededor.webp",
     "description": "Ofrecemos servicios de jardinería y mantenimiento para hogares.",
     "details": [
       "Servicio de jardinería",
@@ -17,7 +17,7 @@
   {
     "id": 2,
     "title": "Servicio a condominios y a empresas",
-    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2023/06/Servicio-a-condominios-y-a-empresas2.jpg",
+    "image": "/images/services-jobs/plantas-empresas.webp",
     "description": "Servicios especializados en áreas verdes para empresas y condominios.",
     "details": [
       "Servicio de poda y tala de árboles y palmeras",
@@ -31,7 +31,7 @@
   {
     "id": 3,
     "title": "Servicios para proyectos y particulares",
-    "image": "https://www.jardinerosenlima.com/wp-content/uploads/2023/06/Servicios-para-proyectos-y-particulares3.jpg",
+    "image": "/images/services-jobs/plantas-hogar.webp",
     "description": "Soluciones personalizadas para proyectos y clientes particulares.",
     "details": [
       "Implementación y mantenimiento de áreas verdes",
